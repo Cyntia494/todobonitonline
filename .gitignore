@@ -38,4 +38,5 @@ node_modules/
 !modules/eter_*/images/default/*.png
 !modules/eter_*/images/default/*.gif
 !modules/eter_*/logo.png
+!modules/*/logo.png
 

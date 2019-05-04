@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>{shop_name}</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body bgcolor="#f8f8f8" style="margin:0; padding:0; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;">
+		<table class="gmail-fix" bgcolor="#f8f8f8" width="100%" align="center" style="min-width:320px;max-width: 600px;">
+			<tr>
+				<td>
+					<!-- TITLES -->
+					<table background="http://demos.eterlabs.com/mails/shoes.jpg" width="100%" align="center" style="margin:0 auto;background-size: cover;padding: 40px 0px;">
+						<tr>
+							<tr>
+								<td align="center" width="100%">
+									<img src="{shop_logo}" width="50%" style="margin-bottom: 20px;" alt="{shop_name}" />
+								</td>
+							</tr>
+							<tr>
+								<td align="center" style="color:#fff;">
+									<strong style="font-size: 25px">
+										Hola {firstname} {lastname},
+									</strong>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" style="font-size: 15px;color:#fff;line-height: 30px;padding: 0px 10px">
+									¡Gracias por comprar en {shop_name}! 
+								</td>
+							</tr>
+						</tr>
+					</table>
+
+					<!-- content -->
+					<table data-module="module-3" class="main-table"  align="center" width="100%">
+						<tr >
+							<td style="padding:15px 10px;line-height: 22px;">
+								Su pedido con la referencia {order_name} ha sido realizado correctamente y será ENVIADO TAN PRONTO COMO RECIBAMOS SU PAGO. 
+							</td>
+						</tr>
+						<tr >
+							<td style="padding:10px 10px">
+								Por favor, recuerde que ha seleccionado transferencia bancaria como forma de pago.
+							</td>
+						</tr>
+						<tr>
+							<td style="padding:0px 10px" align="left">
+								Estos son los datos bancarios para su transferencia:
+							</td>
+						</tr>
+						<tr>
+							<td style="padding:0px 10px" align="left">
+								<strong>IMPORTE:</strong> {total_paid}
+							</td>
+						</tr>
+						<tr>
+							<td style="padding:0px 10px" align="left">
+								<strong>TITULAR DE LA CUENTA:</strong> {bankwire_owner}
+							</td>
+						</tr>
+						<tr>
+							<td style="padding:0px 10px" align="left">
+								<strong>DATOS DE LA CUENTA:</strong> {bankwire_details}
+							</td>
+						</tr>
+						<tr>
+							<td style="padding:0px 10px" align="left">
+								<strong>DIRECCIÓN BANCARIA:</strong> {bankwire_address}
+							</td>
+						</tr>
+						<tr>
+							<td style="padding:10px 10px" align="left">
+								Por favor, incluya el número de referencia de su pedido en los detalles de la transferencia bancaria. 	
+							</td>
+						</tr>
+						<tr>
+							<td style="padding:30px 10px 10px" align="left">
+								Puede revisar su pedido y descargar la factura desde <a href="{history_url}" style="color:#337ff1">"Historial de pedidos"</a> de su cuenta de cliente, haciendo clic en <a  href="{my_account_url}" style="color:#337ff1">"mi cuenta"</a> en nuestra tienda.			
+							</td>
+						</tr>
+						<tr>
+							<td style="padding:10px 10px" align="left">
+								Si tiene una cuenta de invitado, puede seguir su pedido desde la sección: <a href="{guest_tracking_url}" style="color:#337ff1">"Seguimiento de invitado"</a> de nuestra tienda.			
+							</td>
+						</tr>
+					</table>
+
+					<!-- FOOTER -->
+					<table width="100%" style="max-width: 100%;border-top: 1px solid #fff;margin-top: 20px;">
+						<tr>
+							<td style="padding: 8px;text-transform: uppercase;">
+								<table width="100%">
+									<tr>
+										<td class="social-icons" align="center">
+											{shop_name}
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

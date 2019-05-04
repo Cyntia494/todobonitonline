@@ -1,0 +1,166 @@
+name: ClotLabs
+display_name: Theme for Electronics
+version: 1.0.0
+author:
+  name: "ETERLABS S.A.S de C.V"
+  email: "contacto@eterlabs.com"
+  url: "http://www.eterlabs.com"
+
+meta:
+  compatibility:
+      from: 1.7.0.0
+      to: ~
+
+  available_layouts:
+    layout-full-width:
+      name: Full Width
+      description: No side columns, ideal for distraction-free pages such as product pages.
+    layout-both-columns:
+      name: Three Columns
+      description: One large central column and 2 side columns.
+    layout-left-column:
+      name: Two Columns, small left column
+      description: Two columns with a small left column
+    layout-right-column:
+      name: Two Columns, small right column
+      description: Two columns with a small right column
+
+assets:  
+  css:
+    all:
+      - id: fontawesome-all
+        path: assets/fontawesome/css/all.css 
+      - id: eagle_css
+        path: assets/eagle/eagle-gallery.css  
+  js:
+    all:
+      - id: eagle_css
+        path: assets/eagle/eagle-gallery.js 
+    index:
+      - id: owl
+        path: assets/js/owl.carousel.min.js
+    product:
+      - id: owl
+        path: assets/js/owl.carousel.min.js
+
+dependencies:
+  modules:
+    - eter_headerlogin
+    - eter_minicart
+    - eter_inlinelinks
+    - eter_icons
+    - eter_homeblocks
+    - eter_imageslider
+    - eter_blog
+    - eter_cookies
+    - eter_theme
+global_settings:
+  configuration:
+    PS_IMAGE_QUALITY: png
+    PS_PRODUCTS_PER_PAGE: 24
+  modules:
+    to_enable:
+      - eter_headerlogin
+      - eter_minicart
+      - eter_homeblocks
+      - eter_imageslider
+      - eter_theme
+      - eter_blog
+      - eter_inlinelinks
+      - eter_cookies
+    to_disable:
+      - ps_newproducts
+      - ps_viewedproduct
+      - ps_customersignin
+      - ps_shoppingcart
+  hooks:
+    modules_to_hook:
+      displayNav1:
+        - eter_inlinelinks
+      displayNav2:
+        - ps_languageselector
+        - ps_currencyselector
+      displayTop:
+        - eter_minicart
+        - eter_headerlogin
+        - ps_searchbar
+        - ps_mainmenu
+      displayMenuFullWidth: []
+      displayFullColumn:
+        - eter_imageslider
+      displayHome:
+        - eter_homeblocks
+        - ps_featuredproducts
+        - ps_bestsellers
+        - ps_newproducts
+        - eter_blog
+      displayFullBottomColumn: []
+      displayFullBottomColumn: []
+      displayFooterBefore:
+        - ps_emailsubscription
+      displayFooter:
+        - eter_icons
+        - ps_linklist
+        - ps_socialfollow
+      displayFooterAfter: []
+      displayMobileMenuBottom:
+        - ps_currencyselector
+        - ps_languageselector
+      displaySocial: []
+      displayLeftColumn:
+        - ps_categorytree
+        - ps_facetedsearch
+      DisplayShowProductsStars: []
+      DisplayListingAddToCart:
+        - eter_theme
+      displaySearch:
+        - ps_searchbar
+      displayProductAdditionalInfo: 
+        - ps_sharebuttons   
+      displayFooterProduct:
+        - ps_categoryproducts   
+      displayAfterBodyOpeningTag:
+        - eter_theme
+        - eter_cookies
+      displayReassurance: []
+      displayOrderConfirmation2: []
+      displayCrossSellingShoppingCart: []
+
+  image_types:
+    cart_default:
+      width: 250
+      height: 339
+      scope: [products]
+    small_default:
+      width: 250
+      height: 339
+      scope: [products, categories, manufacturers, suppliers]
+    medium_default:
+      width: 800
+      height: 1086
+      scope: [products, manufacturers, suppliers]
+    home_default:
+      width: 400
+      height: 543
+      scope: [products]
+    large_default:
+      width: 1200
+      height: 1629
+      scope: [products, manufacturers, suppliers]
+    category_default:
+      width: 800
+      height: 400
+      scope: [categories]
+    stores_default:
+      width: 170
+      height: 115
+      scope: [stores]
+
+theme_settings:
+  default_layout: layout-full-width
+  layouts:
+    search: layout-full-width
+    category: layout-left-column
+    best-sales: layout-full-width
+    new-products: layout-full-width
+    prices-drop: layout-full-width

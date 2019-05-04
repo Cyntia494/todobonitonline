@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="themes/classic/templates/customer/history.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+    	<trans-unit id="f0a35b5b02a6185481d5f6645459e66saswf" approved="yes">
+    		<source>Date</source>
+    		<target xml:lang="es-MX">Fecha</target>
+    	</trans-unit>
+      <trans-unit id="f0a35b5b02a618548144645459e66dfe" approved="yes">
+        <source>You do not have orders yet</source>
+        <target xml:lang="es-MX">Aún no tienes pedidos</target>
+      </trans-unit>
+      <trans-unit id="69a6686e5bf82d7164e106b86f225216" approved="yes">
+        <source>You do not have credits yet</source>
+        <target xml:lang="es-MX">Aún no tienes créditos</target>
+      </trans-unit>
+      <trans-unit id="56ed1c3772edb91596f3bf6c7ab900f9" approved="yes">
+        <source>You do not have voucher yet</source>
+        <target xml:lang="es-MX">Aún no tienes descuentos</target>
+      </trans-unit>
+      <trans-unit id="1ba903e4356d8c214263dd91497812cc" approved="yes">
+        <source>You do not have merchandise returns yet</source>
+        <target xml:lang="es-MX">Aún no tienes devoluciones</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

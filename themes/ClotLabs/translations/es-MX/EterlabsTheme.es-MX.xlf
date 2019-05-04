@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+   <!-- Global  -->
+  <file original="themes/classic/templates/page.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="274eedab4cea78918b89a144a8bb9eaa" approved="yes">
+        <source>Payment</source>
+        <target xml:lang="es-MX">Métodos</target>
+      </trans-unit>
+      <trans-unit id="75b1df3e94fa84175e62a653be155b84" approved="yes">
+        <source>Methods</source>
+        <target xml:lang="es-MX">de pago</target>
+      </trans-unit>
+      <trans-unit id="5642952193cdac11a6fa36728c43840c" approved="yes">
+        <source>Track your order</source>
+        <target xml:lang="es-MX">Sigue tu pedido</target>
+      </trans-unit>
+      <trans-unit id="1c1955a42cc320812a3f0b650b30c416" approved="yes">
+        <source>Buy Insurance</source>
+        <target xml:lang="es-MX">Compra segura</target>
+      </trans-unit>
+      <trans-unit id="4fb81ed6bc5ab2c5adc7691c07d0c010" approved="yes">
+        <source>The best in </source>
+        <target xml:lang="es-MX">Lo mejor en </target>
+      </trans-unit>
+      <trans-unit id="84414c8dcf499dd1f21155265aa71d76" approved="yes">
+        <source>Offers</source>
+        <target xml:lang="es-MX">Productos en oferta</target>
+      </trans-unit>
+      <trans-unit id="ae909f6ecd0027f3fe666853facd976e" approved="yes">
+        <source>Best Sellers</source>
+        <target xml:lang="es-MX">Lo más vendido</target>
+      </trans-unit>
+      <trans-unit id="d34fc4e81571e431fcca5443ce302f68" approved="yes">
+        <source>New products</source>
+        <target xml:lang="es-MX">Nuevos productos</target>
+      </trans-unit>
+      <trans-unit id="71231f6226263517a6a51372cc88912c" approved="yes">
+        <source>Search results</source>
+        <target xml:lang="es-MX">Resultados de la búsqueda</target>
+      </trans-unit>
+      <trans-unit id="e5d9a1d5a088eec6702d8a234ea650b7" approved="yes">
+        <source>We accept all these cards</source>
+        <target xml:lang="es-MX">Aceptamos todas estas tarjetas.</target>
+      </trans-unit>
+      <trans-unit id="1a08db3527c705d5b0d98381a6cbeb3b" approved="yes">
+        <source>Cards</source>
+        <target xml:lang="es-MX">Tarjetas</target>
+      </trans-unit>
+      <trans-unit id="fd15f37b916bb863d948f172f0287e69" approved="yes">
+        <source>Quality and distinction</source>
+        <target xml:lang="es-MX">Calidad y distinción</target>
+      </trans-unit>
+      <trans-unit id="507dd756d2457e3193b18f21dee9bd51" approved="yes">
+        <source>The highest quality and the best products in one place.</source>
+        <target xml:lang="es-MX">La más alta calidad y los mejores productos en un solo lugar.</target>
+      </trans-unit>
+      <trans-unit id="1f01bfc6a09a1ee7218e4cc4ac618e06" approved="yes">
+        <source>Our Products</source>
+        <target xml:lang="es-MX">Nuestros productos</target>
+      </trans-unit>
+      <trans-unit id="362eaba91b1d155ca808fd87a02ceb7a" approved="yes">
+        <source>Learn more about our products.</source>
+        <target xml:lang="es-MX">Conozca más sobre nuestros productos.</target>
+      </trans-unit>
+    </body>
+  </file>
+  <!-- Contact info -->
+  <file original="themes/classic/modules/ps_contactinfo/ps_contactinfo.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="a41346e4da379849887644de7448cd7424e" approved="yes">
+        <source>We would like to know more about your project</source>
+        <target xml:lang="es-MX" state="translated">Nos gustaría saber más de tu proyecto.</target>
+      </trans-unit>
+      <trans-unit id="a41346e344379849887644de7448cd7424e" approved="yes">
+        <source>Contact us</source>
+        <target xml:lang="es-MX" state="translated">Contactanos</target>
+      </trans-unit>
+    </body>
+  </file>
+  <!-- Home blogs -->
+  <file original="modules/eter_blog/views/templates/home_blogs.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="78f8bb5476bb0018936b68db370b2a17" approved="yes">
+        <source>All you need to know to start your e-commerce</source>
+        <target xml:lang="es-MX" state="translated">Todo lo que necesitas saber para iniciar tu tienda en línea</target>
+      </trans-unit>
+      <trans-unit id="f54ada54ef665ba72d24f9c20dd30da4" approved="yes">
+        <source>Read more</source>
+        <target xml:lang="es-MX" state="translated">Leer más</target>
+      </trans-unit>
+    </body>
+  </file>
+  <!-- Home blocks -->
+  <file original="modules/eter_homeblocks/views/templates/hook/blocks.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="d2cdfc36cb27e64137a16e1ac8bc945d" approved="yes">
+        <source>Develop your stores with our base theme</source>
+        <target xml:lang="es-MX" state="translated">Desarrolla tu tienda con nuestros temas</target>
+      </trans-unit>
+      <trans-unit id="ee9fc591bb17e7945196ce4a93285f34" approved="yes">
+        <source>Save money and time with our themes</source>
+        <target xml:lang="es-MX" state="translated">Ahorra tiempo y dinero</target>
+      </trans-unit>
+      <trans-unit id="93bdb8d8f30cc2e64f19f30e99371006" approved="yes">
+        <source>-It's that easy-</source>
+        <target xml:lang="es-MX" state="translated">-Es tan fácil-</target>
+      </trans-unit>
+      <trans-unit id="2d902d2744c4435e773a2dadb135d506" approved="yes">
+        <source>Live demo</source>
+        <target xml:lang="es-MX" state="translated">Ver demo</target>
+      </trans-unit>
+    </body>
+  </file>
+  <!-- Header login -->
+  <file original="modules/eter_headerlogin/views/templates/login.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="ed0e225800ca78499b3b3daa2c93a18c" approved="yes">
+        <source>Register</source>
+        <target xml:lang="es-MX" state="translated">Registrarse</target>
+      </trans-unit>
+      <trans-unit id="e01103fb9ffeac79386ae6251d55597d" approved="yes">
+        <source>Login</source>
+        <target xml:lang="es-MX">Iniciar sesión</target>
+      </trans-unit>
+    </body>
+  </file>   
+  <!-- Minicart -->
+  <file original="modules/eter_minicart/views/templates/minicart.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="79e7292874976aac6b144da42a405f0b" approved="yes">
+        <source>Empty cart</source>
+        <target xml:lang="es-MX">Carrito vacio</target>
+      </trans-unit>
+      <trans-unit id="75646e2a11dd25a9531d566e08af2522" approved="yes">
+        <source>Edit cart</source>
+        <target xml:lang="es-MX">Editar carrito</target>
+      </trans-unit>
+    </body>
+  </file>
+  <!-- Contact -->
+  <file original="modules/eter_contact/views/templates/form.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="bdb57bcf7766f78a53fb28b05faece15" approved="yes">
+        <source>We want</source>
+        <target xml:lang="es-MX">Queremos</target>
+      </trans-unit>
+      <trans-unit id="3eaec5157c33c8a1726b8da0faa0406b" approved="yes">
+        <source>to know</source>
+        <target xml:lang="es-MX">conocer</target>
+      </trans-unit>
+      <trans-unit id="8dfea5e9a399c9e83eda247b99daf6aa" approved="yes">
+        <source>your project</source>
+        <target xml:lang="es-MX">tu proyecto</target>
+      </trans-unit>
+      <trans-unit id="9804048db7e16d9c9692cc6f380a09bd" approved="yes">
+        <source>Name</source>
+        <target xml:lang="es-MX">Nombre</target>
+      </trans-unit>
+      <trans-unit id="06458733bf1f531350a5bceeb4750313" approved="yes">
+        <source>Lastname</source>
+        <target xml:lang="es-MX">Apellido</target>
+      </trans-unit>
+      <trans-unit id="b4b7148f74a1616b6c2f6b1372c70b28" approved="yes">
+        <source>Company</source>
+        <target xml:lang="es-MX">Compañia</target>
+      </trans-unit>
+      <trans-unit id="c347eee051acc07e12a2ac2c230865f7" approved="yes">
+        <source>Web site</source>
+        <target xml:lang="es-MX">Sitio web</target>
+      </trans-unit>
+      <trans-unit id="7f912776f6411601e787d6fe393c3368" approved="yes">
+        <source>Email</source>
+        <target xml:lang="es-MX">Correo electrónico</target>
+      </trans-unit>
+      <trans-unit id="300154ad5611568886a7a0382c5d43f0" approved="yes">
+        <source>Phone</source>
+        <target xml:lang="es-MX">Teléfono</target>
+      </trans-unit>
+      <trans-unit id="f5e9c7e42e4bded421e4476732087add" approved="yes">
+        <source>Message</source>
+        <target xml:lang="es-MX">Mensaje</target>
+      </trans-unit>
+      <trans-unit id="2f537882b03196eaf7e495077aa0b371" approved="yes">
+        <source>Contact</source>
+        <target xml:lang="es-MX">Contactar</target>
+      </trans-unit>
+    </body>
+  </file>
+  <!-- review_tab -->
+  <file original="modules/eter_reviews/views/templates/front/review_tab.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="d31d3a036f4371709fdcf9b96a8c36e9" approved="yes">
+        <source>Flames</source>
+        <target xml:lang="es-MX">Flamas</target>
+      </trans-unit>
+      <trans-unit id="00b24e476c6635a369899e27b611bcea" approved="yes">
+        <source>Top rated reviews</source>
+        <target xml:lang="es-MX">Reseñas</target>
+      </trans-unit>
+      <trans-unit id="6437dbf5334ade3d492b69993e166f59" approved="yes">
+        <source>By</source>
+        <target xml:lang="es-MX">Por</target>
+      </trans-unit>
+    </body>
+  </file>
+  <!-- review_tab2 -->
+  <file original="modules/eter_reviews/views/templates/front/review_tab2.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="6e976255e9600c8053e51b101d1cc48d" approved="yes">
+        <source>Thanks for your review</source>
+        <target xml:lang="es-MX">Gracias por tu reseña</target>
+      </trans-unit>
+      <trans-unit id="0a81d3fab5a4057742f508b549191f50" approved="yes">
+        <source>Write a review</source>
+        <target xml:lang="es-MX">Escribir una reseña</target>
+      </trans-unit>
+      <trans-unit id="9804048db7e16d9c9692cc6f380a09bd" approved="yes">
+        <source>Name</source>
+        <target xml:lang="es-MX">Nombre</target>
+      </trans-unit>
+      <trans-unit id="de063c99357e6675f1ba05b33635e044" approved="yes">
+        <source>Title</source>
+        <target xml:lang="es-MX">Titulo</target>
+      </trans-unit>
+      <trans-unit id="8e33dd1f9b4748af9a7124ff21a8d435" approved="yes">
+        <source>Comment</source>
+        <target xml:lang="es-MX">Comentario</target>
+      </trans-unit>
+      <trans-unit id="0d10c99c241b5741c82c183d91bdb70c" approved="yes">
+        <source>Post review</source>
+        <target xml:lang="es-MX">Enviar reseña</target>
+      </trans-unit>
+    </body>
+  </file>
+  <!-- product  -->
+  <file original="themes/classic/templates/catalog/product.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="5dfaa64f161c5556889199791f7db867" approved="yes">
+        <source>Reviews</source>
+        <target xml:lang="es-MX">Reseñas</target>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

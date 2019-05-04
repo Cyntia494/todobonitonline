@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="modules/ps_customersignin/ps_customersignin.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="21d2de72186a192d96c9202e28561de9" approved="yes">
+        <source>Log Out</source>
+        <target xml:lang="es-MX">Cerrar sesión</target>
+      </trans-unit>
+      <trans-unit id="ed0e225800ca78499b3b3daa2c93a18c" approved="yes">
+        <source>Register</source>
+        <target xml:lang="es-MX">Regístrate</target>
+      </trans-unit>
+      <trans-unit id="7f912776f6411601e787d6fe393c3368" approved="yes">
+        <source>Email</source>
+        <target xml:lang="es-MX">Correo electrónico</target>
+      </trans-unit>
+      <trans-unit id="29f33cab54c2a8858885b95d8fbb7ff1" approved="yes">
+        <source>Password</source>
+        <target xml:lang="es-MX">Contraseña</target>
+      </trans-unit>
+      <trans-unit id="ee31cfc6adba1d822bde7150adf8ccd4" approved="yes">
+        <source>Register and you can</source>
+        <target xml:lang="es-MX">Regístrate y tu podrás</target>
+      </trans-unit>
+      <trans-unit id="b3260a40f22608475e2797b16d582db5" approved="yes">
+        <source>Buy quickly</source>
+        <target xml:lang="es-MX">Comprar rápidamente</target>
+      </trans-unit>
+      <trans-unit id="7c9908b52397e1a105d0be42142b6d36" approved="yes">
+        <source>Review your orders</source>
+        <target xml:lang="es-MX">Revisar tus pedidos</target>
+      </trans-unit>
+      <trans-unit id="7411f94e271cd2bd2672c0cfd84a546e" approved="yes">
+        <source>Receive special promotions</source>
+        <target xml:lang="es-MX">Recibir promociones</target>
+      </trans-unit>
+      <trans-unit id="0ed3c8f8499109815c1025cbf79710b0" approved="yes">
+        <source>Sign in</source>
+        <target xml:lang="es-MX">Iniciar sesión</target>
+      </trans-unit>
+      <trans-unit id="2cbfb6731610056e1d0aaacde07096c1" approved="yes">
+        <source>View my customer account</source>
+        <target xml:lang="es-MX">Mi cuenta</target>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bdd43690735737034f27" approved="yes">
+        <source>Log in to your customer account</source>
+        <target xml:lang="es-MX">Acceder a mi cuenta</target>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bdd43690735fdsd737sas393i" approved="yes">
+        <source>My account</source>
+        <target xml:lang="es-MX">Mi cuenta</target>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bdd43690735737sas393i" approved="yes">
+        <source>Addresses</source>
+        <target xml:lang="es-MX">Direcciones</target>
+      </trans-unit>
+      <trans-unit id="f4133c6c3948c994900fe4b42b27b971" approved="yes">
+        <source>My orders</source>
+        <target xml:lang="es-MX">Mis pedidos</target>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bdd43690735737sas3sdeds" approved="yes">
+        <source>Orders</source>
+        <target xml:lang="es-MX">Pedidos</target>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bdd436907357sd3fgr3i" approved="yes">
+        <source>Credit slips</source>
+        <target xml:lang="es-MX">Créditos</target>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bdd43690735sdae3393i" approved="yes">
+        <source>Vouchers</source>
+        <target xml:lang="es-MX">Descuentos</target>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bds3ef455737sas393is" approved="yes">
+        <source>Returns</source>
+        <target xml:lang="es-MX">Devoluciones</target>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bds3ef455737sw29iskq2w" approved="yes">
+        <source>Welcome</source>
+        <target xml:lang="es-MX">Bienvenid@</target>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bds3ef455737sw2dsd3sssaw" approved="yes">
+        <source>With your account now you can:</source>
+        <target xml:lang="es-MX">Con tu cuenta ahora podrás:</target>
+      </trans-unit>
+      <trans-unit id="d4151a9a395bs4ee4sa573sd2as33sdsdj388j" approved="yes">
+        <source>Edit your personal information</source>
+        <target xml:lang="es-MX">Editar tus datos personales</target>
+      </trans-unit>
+      <trans-unit id="d4151a9s345bs4ee4sa573sd2as33s3r54f88j" approved="yes">
+        <source>Manage your addresses</source>
+        <target xml:lang="es-MX">Administrar tus direcciones</target>
+      </trans-unit>
+      <trans-unit id="d4151a9s345d4dws24ede3wxdew33s3r54f88j" approved="yes">
+        <source>Organize your orders and re-order</source>
+        <target xml:lang="es-MX">Organizar tus pedidos y re-ordenarlos</target>
+      </trans-unit>
+      <trans-unit id="d4151a9s345d4dws24ede3wxdew33s3rd34d4r" approved="yes">
+        <source>Manage your credit slips</source>
+        <target xml:lang="es-MX">Administre sus comprobantes de crédito</target>
+      </trans-unit>
+      <trans-unit id="d4151a9s345d4dws24ede3wxdewd3se4edsdd" approved="yes">
+        <source>Manage your vouchers</source>
+        <target xml:lang="es-MX">Administrar tus tickets de descuentos</target>
+      </trans-unit>
+      <trans-unit id="d4151a9s345d4dws24ede3wxdewd3dji3dj3s9" approved="yes">
+        <source>Return merchandise and know its status</source>
+        <target xml:lang="es-MX">Devolver mercancía y conocer su estado</target>
+      </trans-unit>
+      <trans-unit id="fdfddd9s345d4dw2454ddfs344djsjw8dfrr55" approved="yes">
+        <source>Your personal information</source>
+        <target xml:lang="es-MX">Su información personal</target>
+      </trans-unit>
+      <trans-unit id="drft1a9s345d4dws24ede3wxdewd3dji3dj3s9" approved="yes">
+        <source>Credit slips you have received after canceled orders</source>
+        <target xml:lang="es-MX">Comprobantes de crédito que recibió después de órdenes canceladas</target>
+      </trans-unit>
+      <trans-unit id="drft1a9s345d4dws24ede3wxdewd3dji3dj3as" approved="yes">
+        <source>Order</source>
+        <target xml:lang="es-MX">Pedido</target>
+      </trans-unit>
+      <trans-unit id="drft1a9s345d4dws24ede3wxdewd3dsjs82sij" approved="yes">
+        <source>Credit slip</source>
+        <target xml:lang="es-MX">Comprobante de crédito</target>
+      </trans-unit>
+      <trans-unit id="drft1a9s345d4dws24ede3wxdddjjsjw8sj334" approved="yes">
+        <source>Date issued</source>
+        <target xml:lang="es-MX">Fecha de emisión</target>
+      </trans-unit>
+      <trans-unit id="r34srer9s345d4dw2454ddfs344djsjw8sj334" approved="yes">
+        <source>View credit slip</source>
+        <target xml:lang="es-MX">Ver comprobante de crédito</target>
+      </trans-unit>
+      <trans-unit id="r34srer9s345d4dw2454ddfs344djsjw8sss2" approved="yes">
+        <source>Here is a list of pending merchandise returns</source>
+        <target xml:lang="es-MX">Aquí hay una lista de devoluciones de mercancía pendientes</target>
+      </trans-unit>
+      <trans-unit id="e06d7593c1cd6dabef450be6c3da7091" approved="yes">
+        <source>Merchandise returns</source>
+        <target xml:lang="es-MX">Devoluciones</target>
+      </trans-unit>
+      <trans-unit id="r34srer9s345d4dw2454ddfs344djsjw8s34rd" approved="yes">
+        <source>Return</source>
+        <target xml:lang="es-MX">Devolución</target>
+      </trans-unit>
+      <trans-unit id="r34srer9s345d4dw2454ddfs344djdsde3dcxdx" approved="yes">
+        <source>Package status</source>
+        <target xml:lang="es-MX">Estado del paquete</target>
+      </trans-unit>
+      <trans-unit id="r34srer9s345d4dw2454ddfs344djdsde3dfgrs" approved="yes">
+        <source>Returns form</source>
+        <target xml:lang="es-MX">Formulario de devoluciones</target>
+      </trans-unit>
+      <trans-unit id="r34srer9s345d4dw2454s24432x344djdsde3sdd4" approved="yes">
+        <source>Order details</source>
+        <target xml:lang="es-MX">Detalles de pedidos</target>
+      </trans-unit>
+      <trans-unit id="r34srer9s345d4dw2454s24432x344djsdeddrcsa" approved="yes">
+        <source>Order Reference %reference% - placed on %date%</source>
+        <target xml:lang="es-MX">Referencia de pedido %reference% - realizado el día %date%</target>
+      </trans-unit>
+      <trans-unit id="r34srer9s345d4dw2454s2dsde34dsdjsdeddrcsa" approved="yes">
+        <source>Reorder</source>
+        <target xml:lang="es-MX">Reordenar</target>
+      </trans-unit>
+      <trans-unit id="r34srerz9s345d4ds34ds2454s2d4dsdjsdeddrcsa" approved="yes">
+        <source>Download your invoice as a PDF file.</source>
+        <target xml:lang="es-MX">Descargue su factura en formato PDF.</target>
+      </trans-unit>
+      <trans-unit id="asassfsrerz9s345d4ds34ds2454s2d4dsd4532csa" approved="yes">
+        <source>You have given permission to receive your order in recycled packaging.</source>
+        <target xml:lang="es-MX">Usted ha dado permiso para recibir su pedido en envases reciclados.</target>
+      </trans-unit>
+      <trans-unit id="asassfsrerz9s345d4ds34ds2454s2sd432s2scvsd" approved="yes">
+        <source>You have requested gift wrapping for this order.</source>
+        <target xml:lang="es-MX">Usted ha solicitado la envoltura de regalos para esta orden.</target>
+      </trans-unit>
+      <trans-unit id="asassfsrerz9s345d4ds34ds2454s24457534545gsd" approved="yes">
+        <source>Message</source>
+        <target xml:lang="es-MX">Mensaje</target>
+      </trans-unit>
+      <trans-unit id="3435xasfsraz5445d4ds34ds2454s24457534545gsd" approved="yes">
+        <source>Follow your order status step-by-step</source>
+        <target xml:lang="es-MX">Siga paso a paso, la situación de su pedido
+        </target>
+      </trans-unit>
+      <trans-unit id="3435xasfsraz5445d4ds34dee422ss34545gsd" approved="yes">
+        <source>Click the following link to track the delivery of your order</source>
+        <target xml:lang="es-MX">Haga clic en el siguiente enlace para rastrear la entrega de su pedido
+        </target>
+      </trans-unit>
+      <trans-unit id="3435xasfsraz5445d4ds34ds2454s244sdcv3454cffl" approved="yes">
+        <source>Merchandise return</source>
+        <target xml:lang="es-MX">Devolución de mercancía</target>
+      </trans-unit>
+      <trans-unit id="3435xasfsraz54454s34ds2454lllhkfdcv3454cffl" approved="yes">
+        <source>If you wish to return one or more products, please mark the corresponding boxes and provide an explanation for the return. When complete, click the button below.</source>
+        <target xml:lang="es-MX">Si desea devolver uno o más productos, marque las casillas correspondientes y proporcione una explicación de la devolución. Cuando termine, haga clic en el botón de abajo.</target>
+      </trans-unit>
+      <trans-unit id="asassfsrerzddjdn3838dkaaldcvs2445753454rgsf" approved="yes">
+        <source>Request a return</source>
+        <target xml:lang="es-MX">Solicitar una devolución</target>
+      </trans-unit>
+      <trans-unit id="asassfsrerzddjdn3838dkaaldcvsw3sdfg66gcvgnsf" approved="yes">
+        <source>Messages</source>
+        <target xml:lang="es-MX">Mensajes</target>
+      </trans-unit>
+      <trans-unit id="asassfsdvrdjdn383dsxsaldsnj39x3sdfg66gcvgnsf" approved="yes">
+        <source>Add a message</source>
+        <target xml:lang="es-MX">Añade un mensaje</target>
+      </trans-unit>
+      <trans-unit id="dr53sxdssjdn383dsxsaldsnj39x3sdfg66gcvgnsf34" approved="yes">
+        <source>If you would like to add a comment about your order, please write it in the field below.</source>
+        <target xml:lang="es-MX">Si desea agregar un comentario sobre su pedido, escríbalo en el campo a continuación.</target>
+      </trans-unit>
+      <trans-unit id="r34srer9s345d4dw2454ddf55667gjd8s34rd" approved="yes">
+        <source>Receive offers from our partners</source>
+        <target xml:lang="es-MX">Reciba ofertas de nuestros socios</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

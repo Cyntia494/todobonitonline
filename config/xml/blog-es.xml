@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/es/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/es/blog/feed.xml</link>
+    <description></description>
+    <language>es</language>
+     <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>¿Qué son los atributos &amp;quot;rel=next&amp;quot; y &amp;quot;rel=prev&amp;quot; y cómo afectan a tu tienda online?</title>
+    <link>https://www.prestashop.com/es/blog/rel-next-prev</link>
+    <description>¿Sabes qué son el &quot;rel=next&quot; y &quot;rel=prev&quot; y cómo funciona la paginación de tu PrestaShop?</description>
+     <pubDate>Mon, 22 Apr 2019 11:39:59 +0200</pubDate>
+ <dc:creator>Antonio Torres</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/rel-next-prev</guid>
+  </item>
+  <item>
+    <title>¿Cómo conseguir seguidores en Instagram para la cuenta de mi eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/como-conseguir-seguidores-instagram</link>
+    <description>¿Sigues sin conseguir seguidores en Instagram para la cuenta de tu negocio online?</description>
+     <pubDate>Sat, 20 Apr 2019 13:50:35 +0200</pubDate>
+ <dc:creator>Ismael Ruiz</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/como-conseguir-seguidores-instagram</guid>
+  </item>
+  <item>
+    <title>¡PrestaShop se renueva! ¿Cuáles son las nuevas funcionalidades para este 2019?</title>
+    <link>https://www.prestashop.com/es/blog/nuevas-funcionalidades-prestashop</link>
+    <description>¿Quieres conocer todas las novedades de PrestaShop que te permitirán comenzar tu negocio online facilitándote aún más la vida en 2019?</description>
+     <pubDate>Wed, 17 Apr 2019 13:00:02 +0200</pubDate>
+ <dc:creator>Eva Lacalle</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/nuevas-funcionalidades-prestashop</guid>
+  </item>
+  <item>
+    <title>¿Cómo actualizar mi tienda de PrestaShop 1.6 a 1.7 paso a paso?</title>
+    <link>https://www.prestashop.com/es/blog/actualizar-prestashop-1-6-a-1-7</link>
+    <description>¿Tienes desactualizada la web de tu eCommerce y necesitas actualizar tu PrestaShop de la versión 1.6 a la 1.7?</description>
+     <pubDate>Mon, 15 Apr 2019 14:07:28 +0200</pubDate>
+ <dc:creator>Antonio Torres</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/actualizar-prestashop-1-6-a-1-7</guid>
+  </item>
+  <item>
+    <title>¿Cómo hacer una factura electrónica u online para tu tienda PrestaShop?</title>
+    <link>https://www.prestashop.com/es/blog/modulos-factura-electronica</link>
+    <description>¿Aún no te apoyas en herramientas profesionales para hacer facturas electrónicas dentro de la actividad de tu tienda online?</description>
+     <pubDate>Thu, 11 Apr 2019 13:57:36 +0200</pubDate>
+ <dc:creator>Mariela Quiroga</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/modulos-factura-electronica</guid>
+  </item>
+  <item>
+    <title>5 Mejores módulos para crear un sistema de reservas online en PrestaShop</title>
+    <link>https://www.prestashop.com/es/blog/modulos-sistema-reservas-online</link>
+    <description>Los sistemas de reserva online son algo que no todo el mundo conoce y que, probablemente, a todo el mundo que tiene un eCommerce le convendría conocer y saber manejar.</description>
+     <pubDate>Tue, 09 Apr 2019 16:49:33 +0200</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/modulos-sistema-reservas-online</guid>
+  </item>
+  <item>
+    <title>5 Mejores plantillas para montar una juguetería online en PrestaShop</title>
+    <link>https://www.prestashop.com/es/blog/plantillas-jugueteria-online</link>
+    <description>¿Estás pensando en emprender con tu propia juguetería online y no sabes cómo empezar?</description>
+     <pubDate>Tue, 09 Apr 2019 16:44:32 +0200</pubDate>
+ <dc:creator>Mariela Quiroga</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/plantillas-jugueteria-online</guid>
+  </item>
+  <item>
+    <title>¿Qué es un hashtag y cómo usarlo en las redes sociales de tu eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/que-es-un-hashtag</link>
+    <description>Una de las herramientas más útiles y a la vez más difíciles de manejar dentro del Internet, y en especial en las redes sociales, son los hashtag.</description>
+     <pubDate>Tue, 09 Apr 2019 16:41:02 +0200</pubDate>
+ <dc:creator>Mariela Quiroga</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/que-es-un-hashtag</guid>
+  </item>
+  <item>
+    <title>Guía del módulo &amp;quot;Average Cart Booster&amp;quot; para hacer Cross-selling en tu tienda online</title>
+    <link>https://www.prestashop.com/es/blog/average-cart-booster</link>
+    <description>
+¿Has probado el módulo &quot;Average Cart Booster&quot; como modo de mejorar tu estrategia de comercio electrónico y, por tanto, tus ventas?</description>
+     <pubDate>Fri, 05 Apr 2019 16:48:45 +0200</pubDate>
+ <dc:creator>Antonio Torres</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/average-cart-booster</guid>
+  </item>
+  <item>
+    <title>¿En qué consisten las mejoras en la estabilidad de PrestaShop 1.7?</title>
+    <link>https://www.prestashop.com/es/blog/prestashop-1-7-estable</link>
+    <description>¡PrestaShop mejora la estabilidad de su última versión 1.7!</description>
+     <pubDate>Wed, 03 Apr 2019 17:31:18 +0200</pubDate>
+ <dc:creator>Eva Lacalle</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/prestashop-1-7-estable</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,116 @@
+.royalSlider {
+  width: 600px;
+  height: calc(100vh - 250px)!important;
+  max-height: 600px;
+  position: relative;
+  direction: ltr;
+}
+.sliderimage {
+  top: calc(50% - 225px)!important;
+  width: auto;
+  height: 450px;
+  position: absolute!important;
+}
+.slideInfo {
+  max-width: 700px;
+}
+.rsContent.right .sliderimage {
+  right: 10%!important;
+}
+.rsContent.left .sliderimage {
+  left: 10%!important;
+}
+.rsContent.right .slideInfo {
+  left: 15%!important;
+}
+.rsContent.left .slideInfo {
+  right: 10%!important;
+  left: initial!important;
+  text-align: right;
+}
+
+.hero-title {
+  color: #000000; 
+  font-size: 80px;  
+  font-weight: bold;  
+  letter-spacing: 0.3px;  
+  line-height: 80px;
+}
+.hero-title span {
+  color: #000000;
+  font-size: 40px;  
+  font-weight: 500; 
+  letter-spacing: 0.3px;  
+  line-height: 48px;
+  position: relative;
+}
+.hero-title span.line:after {
+  content: '';
+  position: absolute;
+  height: 6px;
+  width: 100%;
+  background-color: #FDC812;
+  bottom: 8px;
+  left: 0px;
+  z-index: -2;
+}
+.hero-button {
+  border-radius: 5px; 
+  background-color: #E93F39;  
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  color: #FFFFFF; 
+  font-size: 16px;  
+  font-weight: bold;  
+  letter-spacing: 0.44px; 
+  line-height: 22px;  
+  text-align: center;
+  padding: 10px 20px;
+}
+.hero-button:hover { 
+  background-color: #474747;
+  color: #FFFFFF;  
+}
+.heroSlider .rsBullets {
+  background-color: transparent!important;
+  line-height: 50px;
+}
+.heroSlider .rsBullets .rsBullet {
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+.heroSlider .rsBullets .rsBullet span {
+  width: 20px;
+  height: 20px;
+}
+.heroSlider .rsBullets .rsBullet.rsNavSelected span {
+  background-color: #000000;
+}
+.heroSlider .rsBullets .rsBullet span {
+  background-color: #bcbcbc;
+}
+@media screen and (min-width: 0px) and (max-width: 768px) { 
+  .hero-title {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 0px;
+  }
+  .hero-title span {
+    font-size: 20px;
+  }
+  .rsContent .sliderimage {
+    display: none!important;
+  }
+  .rsContent .slideInfo {
+    width: 100%;
+    text-align: center!important;
+    padding: 0 45px;
+  }
+  .rsContent.left .slideInfo,
+  .rsContent.right .slideInfo {
+    left: 0%!important;
+    right: 0%!important;
+    margin: 0 auto;
+  }
+}
+

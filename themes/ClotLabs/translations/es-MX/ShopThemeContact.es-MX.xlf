@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="themes/classic/modules/contactform/views/templates/widget/contactform.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="02d4482d332e1aef3437cd61c9bcc624" approved="yes">
+        <source>Contact us</source>
+        <target xml:lang="es-MX">Contactanos</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="themes/classic/modules/contactform/views/templates/widget/ps_contactinfo.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="02d4482d332e1aef3437cd61c9bccd56624" approved="yes">
+        <source>Our Stores</source>
+        <target xml:lang="es-MX">Nuestras tiendas</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="themes/classic/modules/ps_contactinfo/ps_contactinfo-rich.tpl" source-language="en" target-language="es-MX" datatype="plaintext">
+    <body>
+      <trans-unit id="3aea774cdcd8f2c45549f10758a71323" approved="yes">
+        <source>Store information</source>
+        <target xml:lang="es-MX">Información de la tienda</target>
+      </trans-unit>
+      <trans-unit id="1300caaefd15b839f37952dc7cc75d82" approved="yes">
+        <source>Call us:</source>
+        <target xml:lang="es-MX">Llamanos:</target>
+      </trans-unit>
+      <trans-unit id="0e2fb5b02182fd28b9b96e86ed27838f" approved="yes">
+        <source>Fax:</source>
+        <target xml:lang="es-MX">Fax:</target>
+      </trans-unit>
+      <trans-unit id="a0bfe0853cf82bdf5dcb9b0bac76c357" approved="yes">
+        <source>Email us:</source>
+        <target xml:lang="es-MX">Envianos un correo electrónico:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

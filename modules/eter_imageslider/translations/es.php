@@ -1,0 +1,38 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{eter_imageslider}prestashop>eter_imageslider_396cfc95445a375fa678d71c6657fd21'] = 'Hero Slider';
+$_MODULE['<{eter_imageslider}prestashop>eter_imageslider_8a163603ba97a6ee8722e6000d2a33b6'] = 'Agrega un hero slider animado a la pagina de inicio';
+$_MODULE['<{eter_imageslider}prestashop>eter_imageslider_df331ede91b59b2c581d8f54096d4b90'] = 'Por favor selecciones una imagen ';
+$_MODULE['<{eter_imageslider}prestashop>eter_imageslider_2d5c7c4961a6fd2acf09ba9de73787ab'] = 'Por favor verifique el alto y ancho de la imagen';
+$_MODULE['<{eter_imageslider}prestashop>eter_imageslider_deb27e3c9e8fed74f05f9cae86c90659'] = 'Por favor revise los permisos de escritura del servidor';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_48c5359d0322e3c738a86f001ac6815c'] = 'Por favor verifique el directorio  %s (Permisos de escritura requeridos).';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_63b3a622c531b42cc048cf14d86dae66'] = 'La imagen ha sido guardada';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_edf69da31f8c641d60651f3e1bb92ac3'] = 'La imagen no ha sido guardada';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_6ead4b69db6e47e40236c5b719fcf6fd'] = 'La imagen ha sido borrada';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_fd6567703da67c6dcec2cc8ac5350e4e'] = 'La imagen no ha sido borrada';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_342a0a1ab8b49ab508791bfb3f526d24'] = 'Por favor verifique el titulo';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_86ba42525a6e34c354109a23985a72a9'] = 'Por favor verifique la url';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_3cfce7b8dc98d0c5ba7dc5f9ce454a72'] = 'Por favor verifique el resumen';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_b26f7a8e59050584deca454a237f7ae2'] = 'Por favor valide la descripción';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_de360c8b5dd9a9fdd592b1c08b3b4a62'] = 'El estatus se ha actualizado';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_f86f7b91afe27e79305a6b07bdb0d3c0'] = 'El estatus no se ha actualizado';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_490aa6e856ccf208a054389e47ce0d06'] = 'Id';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_be53a0541a6d36f6ecb879fa2c584b08'] = 'Imagen';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_8fe47bbf4c1f2b7aa59cffe718bc31ed'] = 'Imagen principal';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_b78a3223503896721cca1303f776159b'] = 'Titulo';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_64f17243f09012102d8d0cd980344c80'] = 'Posición';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_396cfc95445a375fa678d71c6657fd21'] = 'Imagen';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_ced7338587c502f76917b5a693f848c5'] = 'Información';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_4d3d769b812b6faa6b76e1a8abaece2d'] = 'Activo';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_93cba07454f06a4a960172bbd6e2a435'] = 'Si';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_bafd7322c6e97d25b6299b5d6fe8920b'] = 'No';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_205a36f1b372fa213113504073738be0'] = 'Posición';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_abd809c9e3c1c08e97740f86b8ceabfb'] = 'Imagen de fondo';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_35c6c3242880cab3d1b30c96e9e87abe'] = 'Tamaño de la imagen 1500 x 600 pixeles';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_05d4c1d012a4247ceb48a3a05e18e2cc'] = 'Tamaño de la imagen 400 x 496 pixeles';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_b5a7adde1af5c87d7fd797b6245c2a39'] = 'Descripción';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_e64df1d7c22b9638f084ce8a4aff3ff3'] = 'Url destino';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_45b5de8fb2930cf2cc1dc2c6d20bd72a'] = 'Texto del botón';
+$_MODULE['<{eter_imageslider}prestashop>admineterimageslider_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';

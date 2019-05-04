@@ -1,0 +1,51 @@
+.shipping{
+	border: 1px solid #f6f6f6;
+	display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+	.shipment-head {
+		background-color: #f6f6f6;
+	    display: inline-block;
+	    width: 100%;
+		.title {
+			width: calc(25% - 1px);
+			float: left;
+			border-right: 1px solid #fff;
+			padding: 10px;
+			box-sizing: border-box;
+			&:last-child {
+				border-right: 0px;
+			}
+			p {
+				margin-bottom: 0px;
+			}
+		}
+	}
+	.shipping_message,
+	.shipping_status {
+		width: 50%;
+		float: left;
+		background-color: #fff;
+		box-sizing: border-box;
+		padding: 10px;
+		p {
+			margin-bottom: 0px;
+		}
+	}
+	.shipping_status {
+		border-right: 1px solid #f6f6f6;
+		width: calc(50% - 1px);
+	}
+	table {
+		width: 100%;
+		tr {
+			th {
+				background-color: #f6f6f6;
+				padding: 20px;
+			}
+			td {
+				padding: 20px;
+			}
+		}
+	}
+}

@@ -84,15 +84,14 @@ class Eter_Enviaya extends CarrierModule
             && EterHelper::addColumn("carrier", "enviaya_service_code", "varchar(50)")
             && EterHelper::addColumn("carrier", "enviaya_carrier_code", "varchar(50)")
             && EterHelper::addColumn("order_carrier", "enviaya_rate_id", "varchar(50)")
-            && EterHelper::addColumn("order_carrier", "enviaya_label_url", "varchar(350)")
-            && $this->createTab();
+            && EterHelper::addColumn("order_carrier", "enviaya_label_url", "varchar(350)");
     }
     /**
      * @see Module::uninstall()
      */
     public function uninstall()
     {
-        $res = parent::uninstall() && $this->removeModuleTabMenu('AdminRequestShipment');
+        $res = parent::uninstall();
         $carriers = Db::getInstance()->executeS('SELECT id_carrier FROM ' . _DB_PREFIX_ . 'carrier WHERE external_module_name="eter_enviaya"');
         foreach ($carriers as $carrier) {
             $carrier = new Carrier((int)$carrier['id_carrier']);
@@ -138,7 +137,11 @@ class Eter_Enviaya extends CarrierModule
                 $link = $this->context->link;
                 $smartydata['orderid'] = $order->id;
                 $smartydata['carrier'] = (array)$data;
-                $smartydata['requesturl'] = $link->getAdminLink('AdminRequestShipment');
+                $urlParams['configure'] = $this->name;
+                $urlParams['module_name'] = $this->name;
+                $urlParams['module_name'] = $this->tab;
+                $urlParams['requestShipment'] = 1;
+                $smartydata['requesturl'] = $this->context->link->getAdminLink('AdminModules', true,[],$urlParams);
                 $smartydata['abletoship'] = !$this->services->hasShipment($order->id);
                 $this->smarty->assign($smartydata);
                 return $this->display(__FILE__, 'views/templates/admin/enviaya_content.tpl');
@@ -221,8 +224,6 @@ class Eter_Enviaya extends CarrierModule
     */
     public function getTracking($carrier,$shipment_number) 
     {
-        $key = Configuration::get('ENVIAYA_SENDER_KEY');
-        $account = Configuration::get('ENVIAYA_SENDER_ACCOUNT');
         $url = "https://enviaya.com.mx/api/v1/trackings";
         $data = [
             "carrier"=> $carrier,
@@ -284,7 +285,9 @@ class Eter_Enviaya extends CarrierModule
      */
     public function getContent()
     {
-        if (Tools::isSubmit('submitConfig')) {
+        if (Tools::isSubmit('requestShipment')) {
+            $this->requestShipment();
+        } else if (Tools::isSubmit('submitConfig')) {
             Configuration::updateValue('ENVIAYA_ACCOUNT_SANDBOX',Tools::getValue('ENVIAYA_ACCOUNT_SANDBOX'));
             Configuration::updateValue('ENVIAYA_SENDER_SANDBOXKEY',Tools::getValue('ENVIAYA_SENDER_SANDBOXKEY'));
             Configuration::updateValue('ENVIAYA_SENDER_PRODUCTIONKEY',Tools::getValue('ENVIAYA_SENDER_PRODUCTIONKEY'));
@@ -304,6 +307,56 @@ class Eter_Enviaya extends CarrierModule
         $this->_html = EterHelper::getInfo($this);
         $this->_html .= $this->renderConfigForm();
         return $this->_html;
+    }
+    /**
+     * Request to create a new shipment
+     */
+    private function requestShipment() 
+    {
+        $order = new Order(Tools::getValue('order'));
+        $data = EnviaYaServices::getShipmentData($order->id);
+        $ws = $this->requetShipment($order->id,$data->rateid,$data->carrier,$data->carrier_code);
+        $response['success'] = false;
+        if(property_exists($ws,"enviaya_shipment_number")) {
+            $tracking_number = "";
+            $id_order_carrier = $this->getIdOrderCarrier($order);
+            $orderCarrier = new OrderCarrier($id_order_carrier);
+            $update['tracking_number'] = $ws->carrier_shipment_number;
+            $update['enviaya_label_url'] = $ws->label_share_link;
+            
+            Db::getInstance()->update('order_carrier', $update, "id_order_carrier={$orderCarrier->id}");
+            if ($orderCarrier->sendInTransitEmail($order)) {
+                $customer = new Customer((int)$order->id_customer);
+                $carrier = new Carrier((int)$order->id_carrier, $order->id_lang);
+                Hook::exec('actionAdminOrdersTrackingNumberUpdate', array(
+                    'order' => $order,
+                    'customer' => $customer,
+                    'carrier' => $carrier
+                ), null, false, true, false, $order->id_shop);
+                
+                $history = new OrderHistory();
+                $history->id_order = (int)$order->id;
+                $history->changeIdOrderState(Configuration::get('PS_OS_SHIPPING'), (int)$order->id);
+            } 
+            $response['success'] = true;
+        } else {
+            $response['success'] = false;
+            $response['message'] = $ws->status_message;
+        }
+        header('Content-Type: application/json');
+        die(Tools::jsonEncode($response));
+    }
+    /**
+    * Load order carrier id
+    */
+    private function getIdOrderCarrier($order) 
+    {
+        $query = new DbQuery();
+        $query->select("id_order_carrier");
+        $query->from("order_carrier", "ordca");
+        $query->where("id_carrier={$order->id_carrier} and id_order={$order->id}");
+		$idOrderCarrier = (int)Db::getInstance()->getValue($query);
+        return $idOrderCarrier;
     }
     /**
      * Render configuration form
@@ -570,35 +623,6 @@ class Eter_Enviaya extends CarrierModule
             if ($this->services->isEnviaYa(Tools::getValue('id_order'))) {
                 $this->context->controller->addJS($this->_path.'views/assets/js/admin/enviaya.js');
             }
-        }
-    }
-    /**
-     * Create tab
-     */
-    public function createTab() 
-    {
-        $tab = new Tab();
-        $tab->module = $this->name;
-        $tab->active = 0; 
-        $tab->class_name = "AdminRequestShipment";  
-        $tab->id_parent = 10;
-        foreach (Language::getLanguages(true) as $lang)
-        {
-            $tab->name[$lang['id_lang']] = "AdminRequestShipment";
-        }
-        return $tab->add();
-    }
-    /**
-    * Remove tab from admin menu
-    */
-    public function removeModuleTabMenu($classuri) 
-    {
-        $tabID = Tab::getIdFromClassName($classuri); 
-        if($tabID) {
-            $tab = new Tab($tabID);
-            return $tab->delete();
-        } else {
-            return true;
         }
     }
     /**

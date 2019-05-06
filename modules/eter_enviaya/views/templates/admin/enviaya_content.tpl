@@ -6,7 +6,7 @@
 				<p><strong>{l s='Envia Ya #:' mod='eter_enviaya'}</strong>{$tracking.enviaya_shipment_number}</p>
 				<p><strong>{l s='Pickup date:' mod='eter_enviaya'}</strong>{$tracking.pickup_date}</p>
 				<p><strong>{l s='Download Label:' mod='eter_enviaya'}</strong> 
-					< ahref="{$carrier.label}" target="_blank">{l s='download' mod='eter_enviaya'}</a>
+					<a href="{$carrier.label}" target="_blank">{l s='download' mod='eter_enviaya'}</a>
 				</p>
 			</div>
 			<div class="col-md-6 col-xs-12 col-sm-6">

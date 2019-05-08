@@ -128,6 +128,7 @@ global_settings:
       displayAfterBodyOpeningTag:
         - eter_theme
         - eter_cookies
+        - eter_contact
       displayReassurance: []
       displayOrderConfirmation2: []
       displayCrossSellingShoppingCart: []

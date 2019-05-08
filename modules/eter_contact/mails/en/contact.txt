@@ -1,0 +1,16 @@
+
+[{shop_url}] 
+
+Mensaje de un cliente de {shop_name} 
+
+DIRECCIÓN DE CORREO ELECTRÓNICO DEL CLIENTE: {email}
+
+Name: {name}
+
+Email: {email}
+
+Message: {message}
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/] 
+

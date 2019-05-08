@@ -7,12 +7,15 @@ composer.lock
 docker-compose.yml
 package-lock.json
 .DS_Store
-system.log
+*.log
+.log
+*sitemap.xml
 .cache/
 config/xml/trusted_modules_list.xml
 config/xml/untrusted_modules_list.xml
 config/xml/must_have_modules_list.xml
 cache/
+config/xml/
 /docs/
 /var/cache
 /var/logs
@@ -39,4 +42,3 @@ node_modules/
 !modules/eter_*/images/default/*.gif
 !modules/eter_*/logo.png
 !modules/*/logo.png
-

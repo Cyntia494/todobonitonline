@@ -43,5 +43,8 @@ node_modules/
 !modules/eter_*/views/assets/img/*.jpg
 !modules/eter_*/views/assets/img/*.png
 !modules/eter_*/views/assets/img/*.gif
+!modules/paypal/views/img/*.gif
+!modules/paypal/views/img/*.png
+!modules/paypal/views/img/*.jpg
 !modules/eter_*/logo.png
 !modules/*/logo.png

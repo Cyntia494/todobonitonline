@@ -33,11 +33,13 @@ config/xml/
 /cache/
 modules/*/config*.xml
 modules/**/*.jpg
+modules/**/*.jpeg
 modules/**/*.png
 modules/**/*.gif
 node_modules/
 /override/
 !modules/eter_*/images/default/*.jpg
+!modules/eter_*/images/default/*.jpeg
 !modules/eter_*/images/default/*.png
 !modules/eter_*/images/default/*.gif
 !modules/eter_*/views/assets/img/*.jpg
@@ -46,5 +48,6 @@ node_modules/
 !modules/paypal/views/img/*.gif
 !modules/paypal/views/img/*.png
 !modules/paypal/views/img/*.jpg
+!modules/paypal/views/img/*.jpeg
 !modules/eter_*/logo.png
 !modules/*/logo.png

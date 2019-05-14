@@ -49,5 +49,9 @@ node_modules/
 !modules/paypal/views/img/*.png
 !modules/paypal/views/img/*.jpg
 !modules/paypal/views/img/*.jpeg
+!modules/openpay*/views/img/*.gif
+!modules/openpay*/views/img/*.png
+!modules/openpay*/views/img/*.jpg
+!modules/openpay*/views/img/*.jpeg
 !modules/eter_*/logo.png
 !modules/*/logo.png

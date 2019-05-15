@@ -36,12 +36,12 @@
 {if $data}
     <div id="footericons"  >
         <div class="icons" >
-            <div class="title">{l s='Payment Icons' d='Eterlabs.Theme'}</div>
+            <div class="title">{l s='Payment Icons' mod='eter_icons'}</div>
             {foreach from=$data item=row}
                 {if $row.active} 
                     {if $row.url}<a href="{$row.url}">{/if}
                         <div class="icon">
-                            <img src="{$row.image}" alt="{l s='Cards' d='Eterlabs.Theme'}" class="image">
+                            <img src="{$row.image}" alt="{l s='Cards' mod='eter_icons'}" class="image">
                         </div>
                     {if $row.url}</a>{/if}
                 {/if}

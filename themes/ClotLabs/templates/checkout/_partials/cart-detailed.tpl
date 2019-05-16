@@ -86,7 +86,7 @@
             </div>
         </div>
         <div class="bottom-quick">
-            <a type="button" href="{$urls.pages.index}" class="btn btn-secondary" data-dismiss="modal">{l s='Continue shopping' d='Shop.Theme.Actions'}</a>
+            <a href="{$urls.pages.index}" class="btn btn-secondary" data-dismiss="modal">{l s='Continue shopping' d='Shop.Theme.Actions'}</a>
         </div>
     </div>
     {/if}

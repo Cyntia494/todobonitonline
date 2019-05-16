@@ -8,3 +8,8 @@
 		</div>
 	</div>
 </div>	
+{literal}
+	<script type="text/javascript">
+		document.body.classList.add('cookie-active');
+	</script>
+{/literal}

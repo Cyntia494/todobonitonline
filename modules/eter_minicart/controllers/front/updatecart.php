@@ -54,7 +54,8 @@ class eter_minicartupdatecartModuleFrontController extends ModuleFrontController
             } catch (Exception $e) {}
         }
        $modal = null;
-       if (Tools::getValue('id_product')) {
+       $action = Tools::getValue('action');
+       if (Tools::getValue('id_product') && $action != "delete-from-cart") {
            $modal = $this->module->renderModal(
                $this->context->cart,
                Tools::getValue('id_product'),

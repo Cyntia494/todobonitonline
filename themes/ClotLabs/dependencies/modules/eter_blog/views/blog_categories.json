@@ -1,0 +1,34 @@
+{
+	"categories" : {
+		"0": {
+			"active": "1",
+			"name": "Prestashop Modules",
+			"url": "prestashop-modules",
+			"resumen": "Lean about prestashop modules development"
+		},
+		"1": {
+			"active": "1",
+			"name": "Prestashop Theme",
+			"url": "prestashop-themes",
+			"resumen": "Lean about prestashop themes development"
+		},
+		"2": {
+			"active": "1",
+			"name": "Prestashop Configurations",
+			"url": "prestashop-configuration",
+			"resumen": "Lean about prestashop configurations"
+		},
+		"3": {
+			"active": "1",
+			"name": "Prestashop Tip",
+			"url": "prestashop-tips",
+			"resumen": "Follow out tips about how to implement a successfull prestashop ecommerce"
+		},
+		"4": {
+			"active": "1",
+			"name": "Ecommerce",
+			"url": "ecommerce",
+			"resumen": "Lean about prestashop modules development"
+		}
+	}
+}

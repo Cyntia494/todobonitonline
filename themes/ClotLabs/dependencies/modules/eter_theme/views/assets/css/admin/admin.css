@@ -1,0 +1,10 @@
+.installing-proccess .progress {
+	width: 100%;
+}
+.hide-step {
+	display: none;
+}
+.loader {
+	height: 56px;
+    float: right;
+}

@@ -1,0 +1,17 @@
+#eter-contact .contact-circle .circle {
+    background-color: {back-color};
+    color: {font-color};
+}
+#eter-contact .contact-options a:hover {
+	background-color: {back-color};
+	color: {font-color};
+}
+#eter-contact .contact-options a:hover svg {
+	color: {font-color};
+}
+#contact-server-modal .form-contact {
+	background-color: {back-color};
+}
+.information i {
+	color: {back-color};
+}

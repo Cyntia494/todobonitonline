@@ -24,11 +24,9 @@
 *}
 
 <div class="block_newsletter ">
-  <img src="{$urls.theme_assets}/images/newsletter.jpg">
   <div class="form-newsletter">
-    <div class="container">
       <div class="news-form">
-        <h3 class="newsletter-title">{l s='Subscribe to our newsletter' d='Shop.Theme.Newsletter'}</h3>
+        <h3 class="newsletter-title">{l s='Newsletter' d='Shop.Theme.Newsletter'}</h3>
         <div class="newsletter-form">
           <form action="{$urls.pages.index}#footer" method="post">
               <div class="mesage">
@@ -47,10 +45,10 @@
                   placeholder="{l s='Email' d='Shop.Forms.Labels'}"
                 >
                 {if $conditions}
-                  <p>{$conditions}</p>
+                 <!-- <p>{$conditions}</p>-->
                 {/if}
                 <button class="btn btn-secondary newsletter-button" name="submitNewsletter" type="submit">
-                  Suscribirse
+                  <i class="material-icons">send</i>
                 </button>
                 <input type="hidden" name="action" value="0">
                 <div class="clearfix"></div>
@@ -59,6 +57,5 @@
         </div>
          {hook h='displaySocial'}
       </div>
-    </div>
   </div>
 </div>

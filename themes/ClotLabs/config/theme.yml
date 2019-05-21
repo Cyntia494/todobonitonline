@@ -54,8 +54,6 @@ dependencies:
     - eter_blog
     - eter_cookies
     - eter_theme
-    - eter_banner1
-    - eter_banner2
 global_settings:
   configuration:
     PS_IMAGE_QUALITY: png
@@ -70,8 +68,6 @@ global_settings:
       - eter_blog
       - eter_inlinelinks
       - eter_cookies
-      - eter_banner1
-      - eter_banner2
     to_disable:
       - ps_newproducts
       - ps_viewedproduct
@@ -95,18 +91,17 @@ global_settings:
       displayHome:
         - eter_homeblocks
         - ps_featuredproducts
-        - eter_banner1
         - ps_bestsellers
-        - eter_banner2
         - ps_newproducts
         - eter_blog
       displayFullBottomColumn: []
       displayFullBottomColumn: []
-      displayFooterBefore:
-        - ps_emailsubscription
+      displayFooterBefore: []
       displayFooter:
         - eter_icons
         - ps_linklist
+        - ps_emailsubscription
+      displaySocial:
         - ps_socialfollow
       displayFooterAfter: []
       displayMobileMenuBottom:
@@ -128,7 +123,6 @@ global_settings:
       displayAfterBodyOpeningTag:
         - eter_theme
         - eter_cookies
-        - eter_contact
       displayReassurance: []
       displayOrderConfirmation2: []
       displayCrossSellingShoppingCart: []

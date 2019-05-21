@@ -23,15 +23,15 @@
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
-
 {block name='block_social'}
-  <div class="block-social">
-  	<h2>{l s='Follow us' d='Shop.Theme.Social'}</h2>
-    <ul>
-      {foreach from=$social_links item='social_link'}
-        <li class="{$social_link.class}"><a href="{$social_link.url}" target="_blank">{$social_link.label}</a></li>
-      {/foreach}
-    </ul>
-    
-  </div>
+  {if count($social_links) > 0 }
+    <div class="block-social">
+      <h2>{l s='Follow us' d='Shop.Theme.Social'}</h2>
+      <ul>
+        {foreach from=$social_links item='social_link'}
+          <li class="{$social_link.class}"><a href="{$social_link.url}" target="_blank">{$social_link.label}</a></li>
+        {/foreach}
+      </ul>
+    </div>
+    {/if}
 {/block}

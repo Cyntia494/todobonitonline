@@ -1,0 +1,118 @@
+.block_newsletter { 
+  display: inline-block;
+  float: left;
+  width: 19%;
+  overflow: hidden;
+  position: relative;
+  .form-newsletter {
+    width: 100%;
+    position: relative;
+    .form-inputs {
+      position: relative;
+    }
+    .newsletter-title {
+      color: #230f39;
+      font-family: "Nunito Sans";
+      font-size: 14px;
+      font-weight: 900;
+      letter-spacing: .5px;
+      line-height: 19px;
+      text-align: left;
+      padding: 0;
+    }
+  }
+
+  .newsletter-form  {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    .newsletter-email {
+      width: 100%;
+      float: left;
+      height: 30px;
+      padding-left: 5px;
+      margin-bottom: 5px;
+      font-size: 13px;
+    }
+    .newsletter-button {
+      font-size: 2px;
+      font-weight: 600;
+      height: 30px;
+      padding: 0;
+      position: absolute;
+      right: 0;
+      text-align: center;
+      top: 0px;
+      width: 40px;
+      i {
+        margin-right: 0px;
+      }
+    }
+    p {
+      color: #fff;
+      font-size: 14px;
+      line-height: normal;
+      text-align: center;
+      font-weight: 300;
+    }
+    .mesage {
+      .alert {
+        background-color: transparent;
+        border-color: transparent;
+        padding: 0px;
+        color: hsla(0,1%,63%,.92);
+        text-align: left;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .block_newsletter {
+    .newsletter-form {
+      p {
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .block_newsletter {
+    width: 100%;
+    margin-bottom: 25px;
+    .form-newsletter {
+      .newsletter-title {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        border-bottom: 0px;
+        font-size: 14px;
+      }
+    }
+    .newsletter-form {
+      width: 100%;
+      .newsletter-email {
+        font-size: 10px;
+        width: 100%;
+      }
+      .newsletter-button {
+        font-size: 10px !important;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  .block_newsletter {
+    width: 100% !important;
+    text-align: center;
+    .newsletter-title {
+      width: 100%;
+    }
+    .newsletter-form {
+      margin: 0 auto;
+      width: 50%;
+    }
+  }
+}

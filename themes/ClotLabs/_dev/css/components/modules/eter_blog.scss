@@ -1,0 +1,40 @@
+.home-blogs {
+	margin-top: 30px;
+	margin-bottom: 0px!important;
+	.owl-theme {
+		.owl-nav.disabled+.owl-dots {
+		    margin-top: 0px!important;
+		    top: -31px;
+		    position: absolute;
+		    width: 100%;
+		}
+	}
+}
+.blogs {
+	.blog {
+		border: 0px;
+		.date {
+			text-align: center;
+			.details {
+				width: 100%;
+			}
+			.title {
+				color: #230f39;
+			    font-family: Nunito Sans;
+			    font-size: 18px;
+			    font-weight: 700;
+			    letter-spacing: .64px;
+			    line-height: 24px;
+			    text-overflow: ellipsis;
+			    display: -webkit-box;
+			    -webkit-line-clamp: 1;
+			    -webkit-box-orient: vertical;
+			    overflow: hidden;
+			    text-transform: none;
+			    text-align: center;
+			    min-height: 0;
+			    max-height: none;
+			}
+		}
+	}
+}

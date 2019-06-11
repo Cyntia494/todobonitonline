@@ -1,0 +1,42 @@
+#instagram {
+	.owl-carousel.owl-loaded {
+		float: left;
+	}
+	.instagram-carousel {
+		padding: 0 7px;
+		margin-top: 40px;
+		img {
+			height: 250px;
+		}
+	}
+	.owl-nav {
+		margin: 0px;
+		div	{
+			position:absolute;
+			top: calc(50% - 15px);
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			padding: 0px;
+    	line-height: 30px;
+    	color: #fff;
+    	background-color: #ccc;
+    	    opacity: .8;
+		}	
+		div.owl-prev {
+			left: 0px;
+		}
+		div.owl-next {
+			right: 0px;
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	#instagram {
+		.instagram-carousel {
+			img {
+				height: 200px;
+			}
+		}
+	}
+}

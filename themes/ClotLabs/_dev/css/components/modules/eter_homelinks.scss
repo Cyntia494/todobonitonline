@@ -1,0 +1,123 @@
+.home-links {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    .link-container {
+        display: inline-block;
+        margin-right: -10px;
+        margin-left: -10px;
+        margin-top: -10px;
+    }
+    .section1 {
+        float: left;
+        width: 50%;
+    }
+    .itemcontainer {
+        display: inline-block;
+        padding: 10px;
+        width: 100%;
+    }
+    .section2 {
+        float: left;
+        width: 50%;
+        .itemcontainer {
+            width: 50%;
+            float: left;
+        }
+    }
+    .item {
+        position: relative;
+        img {
+            width: 100%;
+        }
+        .info {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            background-color: $homelink-backcolor;
+            left: 0;
+            width: 100%;
+            display: block;
+            p {
+                font-size: 15px;
+                color: $homelink-text-color;
+                line-height: 20px;
+                font-weight: 100;
+            }
+            strong {
+                font-size: 25px;
+                color: $homelink-title-color;
+                text-transform: uppercase;
+                font-weight: 400;
+                letter-spacing: 0px;
+                -webkit-font-smoothing: antialiased;
+            }
+        }
+        
+    }
+}
+.home-links .item:hover .info {display: block;}
+.home-links .item .info .center{display: table;bottom: 0;left: 0;margin: auto;position: absolute;right: 0;text-align: center;top: 0px;padding: 0 20px;width: 100%;}
+@media (min-width: 320px) and (max-width: 1100px) {
+	.home-links .item .info p {font-size: 14px;line-height: 15px;margin-bottom: 0px;}
+	.home-links .item .info h1 {font-size: 18px;}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .home-links {
+        .link-container {
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+        }
+        .itemcontainer {
+            padding: 0px;
+        }
+        .section1,
+        .section2 {
+            width: 100%;
+        }
+        .item {
+            .info {
+                display: block;
+            }
+        }
+    	.section2  {
+            display: none;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 1100px) { 
+    .home-links {
+        .section1 {
+            width: 66.7%;
+        }
+        .item {
+            .info {
+                strong {
+                    font-size: 20px;
+                }
+            }
+        }
+        .section2 {
+            width: 33.3%;
+            .itemcontainer {
+                width: 100%;
+            }
+            a:nth-child(3),
+            a:nth-child(4), {
+                display: none;
+            }
+        }
+        .section {
+            .content {
+                .hometable {
+                    .descri {
+                        font-size: 15px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

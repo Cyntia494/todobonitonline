@@ -1,0 +1,37 @@
+#category,
+#pagenotfound,
+#search {
+	section.page-not-found {
+		h4 {
+			color: #230f39;	
+			font-size: 18px;	
+			font-weight: bold;	
+			line-height: 24px;
+		}
+		p {
+			font-size: 18px;	
+			font-weight: normal;	
+			line-height: 24px;
+			color: #000;
+		}
+		#search_widget {
+			margin: 0 auto;
+			float: initial;
+			form {
+				background-color: #fff;
+				input[type=text] {
+					width: calc(100% - 35px);
+				}
+				button {
+					span {
+						display: none;
+					}
+				}
+				.search-tablet,
+				.close {
+					display: none;
+				}
+			}
+		}
+	}
+}

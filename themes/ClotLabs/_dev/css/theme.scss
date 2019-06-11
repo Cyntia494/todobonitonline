@@ -1,0 +1,87 @@
+
+@import "~bourbon/app/assets/stylesheets/bourbon";
+@import "partials/_variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css";
+
+@import "partials/_colors";
+
+@import "partials/_mixins";
+@import "partials/_fonts";
+@import "partials/_commons";
+@import "components/alert";
+@import "components/drop-down";
+@import "components/search-widget";
+@import "components/mainmenu";
+@import "components/my-account";
+@import "components/checkout";
+@import "components/customer";
+@import "components/forgotten-password";
+@import "components/renew-password";
+@import "components/imageslider";
+@import "components/featuredproducts";
+@import "components/custom-text";
+
+@import "components/productpage-default";
+@import "components/productpage";
+@import "components/listing/listing";
+@import "components/listing/category";
+@import "components/listing/products";
+@import "components/listing/search";
+@import "components/listing/filters";
+/*@import "components/products";
+@import "components/search";
+@import "components/prices-drop";
+
+*/
+@import "components/cart";
+@import "components/block-reassurance";
+@import "components/quickview";
+@import "components/stores";
+@import "components/footer";
+@import "components/newsletter";
+@import "components/contact";
+@import "components/errors";
+@import "components/customization-modal";
+@import "components/sitemap";
+@import "components/social-buttons";
+@import "components/header";
+@import "components/global";
+@import "components/headerlogin";
+@import "components/minicart";
+@import "components/cms";
+@import "components/sucess";
+@import "components/specials";
+@import "components/quick-product";
+@import "components/myaccount/global";
+@import "components/myaccount/address";
+@import "components/myaccount/addresses";
+@import "components/myaccount/identity";
+@import "components/myaccount/orders";
+@import "components/myaccount/order-detail";
+@import "components/myaccount/returns";
+@import "components/myaccount/vouchers";
+@import "components/myaccount/order-slip";
+@import "components/myaccount/order-return";
+@import "components/modules/eter_homemanufacturer";
+@import "components/modules/eter_products";
+@import "components/modules/eter_homemenu";
+@import "components/modules/eter_icons";
+@import "components/modules/eter_homeblocks";
+@import "components/modules/eter_services";
+@import "components/modules/eter_notice";
+@import "components/modules/eter_reviews";
+@import "components/modules/eter_homelinks";
+@import "components/modules/eter_instagram";
+@import "components/modules/eter_blog";
+@import "components/extra/owl";
+@import "components/home";
+@import "components/modules/eter_cms";
+
+body {
+	font-family: 'Open Sans';
+}
+.homeslider-container,
+#slider-with-blocks-1 {
+	margin-bottom: 0px!important;
+}

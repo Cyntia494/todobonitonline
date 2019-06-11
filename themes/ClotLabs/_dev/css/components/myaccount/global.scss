@@ -1,0 +1,97 @@
+.my-account-content {
+	display: inline-block;
+	margin-bottom: 15px;
+	padding-top: 20px;
+	width: 100%;
+	h2 {
+		border-bottom: 1px solid #f4f7f7;
+		margin: -10px -10px 0px -10px;
+		line-height: 40px;
+		padding: 0 15px;
+		font-weight: 600;
+		color: #230f39;
+	}
+	.menu {
+		float: left;
+		background-color: $backgroundmyaccountsection;
+		width: 250px;
+		margin-right: 10px;
+		padding: 10px 10px 10px 10px;
+		.mobile {
+			display: none;
+		}
+		h2 {
+			color: #230f39;	
+			font-size: 25px;	
+			padding-left: 30px;
+			font-weight: normal;
+		}
+		.links {
+			a {
+				width: 100%;
+				margin-bottom: 10px;
+				padding: 5px 5px 5px 20px;
+				height: 35px;
+				margin-top: 20px;
+				margin-top: 20px;
+				color: #230f39;	
+				font-size: 18px;	
+			}
+			.current {
+				font-weight: bold;
+				color: #230f39;
+				margin-left: 10px;
+			}
+		}
+	}
+	.content {
+		background-color: $backgroundmyaccountsection;
+		padding: 10px 0;
+		float: left;
+		width: calc(100% - 260px);
+		min-height: calc(100vh - 320px);
+		h2 {
+			color: #230f39;	
+			font-size: 25px;	
+			padding-left: 30px;
+			font-weight: normal;
+		}
+		.account-content {
+			padding: 15px 10px;
+			display: inline-block;
+			width: 100%;
+		}
+	}
+
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+	.my-account-content {
+		.menu {
+			h2 {
+				font-size: 18px;	
+			}
+		}
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.my-account-content {
+		.menu {
+			display: none;
+		}
+		.content {
+			width: 100%;
+			margin-bottom: 10px;
+			padding: 0px;
+			h2 {
+				margin: initial;
+			}
+		}
+	}
+	.content { 
+		min-height: initial;
+		h2 {
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,251 @@
+#order-products {
+	strong {
+		font-size: 14px;
+	}
+	.current {
+		p {
+			margin-bottom: 5px;
+		}
+	}
+	td {
+		max-width: 100px;
+		overflow: hidden;
+	}
+}
+#guest-tracking,
+#order-detail {
+	#wrapper {
+		background-color: #f6f6f6;
+	}
+	.order-infos {
+		margin-bottom: 20px;
+	}
+	.order-total {
+		margin-bottom: 10px;
+	}
+	#content-wrapper {
+		#content {
+			.my-account-content {
+				.content {
+					font-size: 14px;
+					line-height: 16px;
+					color: #230f39;
+					padding: 15px 5px;
+					h2 {
+						margin: -10px 0px 0;
+					}
+					.box {
+						border: 1px solid #f6f6f6;
+						padding: 10px;
+    					margin-bottom: 10px;
+					}
+					h3 {
+						font-size: 14px;
+						line-height: 16px;
+						color: #230f39;
+					}
+					.shipping-table,
+					.order-products {
+						padding: 0px;
+						border-width: 0px;
+						strong {
+							font-size: 14px;
+						}
+					}
+					.account-content {
+						#order-history {
+							padding: 0px;
+							border-width: 0px;
+							.history-lines {
+								.history-line {
+									line-height: 24px;
+								}
+							}						}
+						.payments {
+							.payment {
+								width: 50%;
+								float: left;
+							}
+							.payment-method {
+								padding-right: 5px;
+							}
+							.delivery-method {
+								padding-left: 5px;
+							}
+						}
+						.addresses {
+							.address {
+								width: 50%;
+								float: left;
+							}
+							.invoice-address {
+								padding-right: 5px;
+							}
+							.delivery-address {
+								padding-left: 5px;
+							}
+						}
+						#order-return-form {
+							.box {
+								p, h3 {
+									font-size: 14px;
+									line-height: 16px;
+									color: #230f39;
+								}
+							}
+						}
+						.order-message-form {
+							p, h3, label	 {
+								font-size: 14px;
+								line-height: 16px;
+								color: #230f39;
+							}
+						}
+						#order-infos {
+							.box {
+								.row {
+									margin-right: 10px;
+									strong {
+										line-height: 18px;
+									}
+								}
+								ul {
+									margin: 0;
+									li {
+										line-height: 18px;
+									}
+								}
+							}
+						}
+					}
+				}
+			} 
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+	#guest-tracking,
+	#order-detail {
+		#content-wrapper {
+			#content {
+				.my-account-content {
+					.content {
+						h2 {
+							font-size: 18px;
+						}
+					}
+				} 
+			}
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	#guest-tracking,
+	#order-detail {
+		#wrapper {
+			padding-top: 70px!important;
+		}
+		#content-wrapper {
+			#content {
+				.my-account-content {
+					.content {
+						h2 {
+							font-size: 18px;
+						    line-height: 20px;
+						    padding: 0px 0px 15px;
+						    margin: 0 -10px;
+						}
+						.account-content {
+							#order-history.box,
+							.box {
+								padding: 10px;
+								margin-bottom: 10px;
+								border-width: 1px;
+								.shipping-lines {
+									.shipping-line {
+										ul {	
+											li {
+												line-height: 22px;
+											}
+										}
+									}
+								}
+							}
+							#order-history {
+
+							}
+							#order-return-form {
+								.order-items {
+									.order-item {
+										.row {
+											margin: 0;
+											.content {
+												min-height: 125px;
+												.row {
+													.desc {
+														padding: 0;
+														.name, .ref {
+															line-height: 22px;
+														}
+													}
+													.qty {
+														padding: 0;
+													}
+													> div {
+														padding: 0;
+														line-height: 22px;
+													}
+												}
+											}
+										}
+									}
+								}
+								.box {
+									h3 {
+										text-align: center;
+									}
+									p {
+										text-align: justify;
+									}
+								}
+							}
+							.order-message-form {
+
+							}
+						}
+					}
+				} 
+			}
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 640px) {
+	#guest-tracking,
+	#order-detail {
+		#content-wrapper {
+			#content {
+				.my-account-content {
+					.content {
+						.account-content {
+							.addresses {
+								.address {
+									width: 100%;
+									padding: 0px;
+								}
+							}
+							.shipping-table {
+								border-width: 1px;
+							}
+							.payments {
+								.payment {
+									width: 100%;
+									padding: 0px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

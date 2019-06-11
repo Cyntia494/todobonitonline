@@ -1,0 +1,26 @@
+.home-manufacturers {
+	display: inline-block;
+	height: auto;
+	background-color: $manufacturers-backcolor;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px;
+	.manufacturers-list {
+	    padding: 10px 0px;
+	}
+	.manufacturer {
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		a {
+			display: inline-block;
+			width: 100%;
+		}
+		img {
+		    width: auto!important;
+		    height: 60px;
+		    margin: 0 auto;
+		}
+	}
+}

@@ -9,8 +9,8 @@
 	       	<div class="description">
 				<div class="top-p-title">
 					<div class="container description-wrapper">
-						<h1 class="strong">{l s="Best Sales" d='Shop.Theme.Catalog'}</h1>
-						<div class="category-description">{l s="Best Sales" d='Shop.Theme.Catalog'}</div>
+						<h1 class="strong">{l s="Best Sales" d='ShopThemeCatalog'}</h1>
+						<div class="category-description">{l s="The Best Sales products" d='ShopThemeCatalog'}</div>
 					</div>
 				</div>
 	       </div>

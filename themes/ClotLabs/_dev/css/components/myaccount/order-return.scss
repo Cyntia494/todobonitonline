@@ -1,0 +1,25 @@
+#order-return {
+	#wrapper {
+		background-color: #f6f6f6;
+	}
+	#order-return-infos {
+		top: 30px;
+		h1 {
+			text-align: center;
+			margin-bottom: 25px;
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	#order-return {
+		#wrapper {
+	    padding-top: 70px;
+      min-height: calc(100vh - 270px);
+		}
+		#order-return-infos {
+			h1 {
+				font-size: 18px;
+			}
+		}
+	}
+}

@@ -1,0 +1,133 @@
+	#order-slip{
+		#wrapper {
+			background-color: #f6f6f6;
+		}
+		.menu {
+			h2 {
+				padding-left: 30px;
+			}
+		}
+		.account-content {
+			padding: 0;
+		}
+		.content {
+			padding: 10px;
+			h2 {
+				margin: -10px -10px 0px;
+			}
+			.no-orders {
+				text-align: center;
+				margin-top: 30px;
+				.icon {
+					background-image: url(../img/tax.png);
+					width: 100px;
+					height: 100px;
+					background-position: center;
+					text-align: center;
+					margin: auto;
+					background-size: cover;
+					color: #000;
+				}
+				p {
+					color: #230f39;
+					font-size: 16px;
+					line-height: 22px;
+					margin-top: 16px;
+				}
+			}
+		}
+		.table-slip {
+			width: 33.33%;
+			float: left;
+			padding: 20px 5px 5px;
+			font-size: 16px;
+			.container-slip {
+				border: 1px solid #BCBCBC;
+				line-height: 16px;
+				padding: 10px;	
+				h4 {
+					color: #230f39;	
+					font-size: 16px;	
+					line-height: 18px;	
+					margin-bottom: 5px;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					overflow: hidden;
+					min-height: 18px;
+				}
+				p,a {
+					color: #4E4E4E;	
+					font-size: 16px;	
+					font-weight: 600;	
+					line-height: 18px;
+					margin-bottom: 5px;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					overflow: hidden;
+					min-height: 18px;
+				}
+			}
+		}
+	}
+	@media (min-width: 768px) and (max-width: 1100px) {
+		#order-slip{
+			#wrapper {
+				background-color: #f6f6f6;
+				.container {
+					max-width: 100%;
+				}
+			}
+			.menu {
+				h2 {
+					padding-left: 30px;
+				}
+			}
+			.account-content {
+				padding: 0;
+			}
+			.content {
+				h2 {
+					font-size: 18px;
+				}
+				.no-orders {
+					.icon {
+						width: 75px;
+						height: 75px;
+					}
+				}
+			}
+			.table-slip {
+				width: 50%;
+			}
+		}
+	}
+	@media (min-width: 320px) and (max-width: 767px) {
+		#order-slip {
+			#wrapper {
+				padding-top: 70px;
+			}
+			.table-slip {
+				width: 50%;
+			}
+			.content {
+				h2 {
+					font-size: 18px;
+					margin: -10px -10px 0px;
+				}
+				.no-orders {
+					.icon {
+						width: 75px;
+						height: 75px;
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: 320px) and (max-width: 549px) {
+		#order-slip {
+			.table-slip {
+				width: 100%!important;
+				padding: 20px 10px 5px;
+			}
+		}
+	}

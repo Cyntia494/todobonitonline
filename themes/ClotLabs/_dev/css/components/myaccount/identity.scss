@@ -1,0 +1,172 @@
+#identity,#address {
+	#wrapper {
+		background-color: #f6f6f6;
+	}
+	.content {
+		.account-content {
+			padding: 25px 5px 0; 
+			display: block;
+			width: 50%;
+			margin: auto;
+		}
+		h2 {
+			margin: -10px 0 0;
+		}
+		h3 {
+			width: 100%;
+		}
+		form {
+			.form-group {
+				width: 100%;
+				.form-label {
+					float: left;
+					width: 100%;
+					text-align: left;
+					font-size: 16px;	
+					line-height: 34px;
+					em {
+						color: #D0021B;
+					}
+				}
+				.form-input {
+					width: 100%;
+					input {
+						border: 1px solid #979797;	
+						background-color: #FFFFFF;
+					}
+				}
+				&.newsletter {
+					.form-label {
+						display: none;
+					}
+					.form-input {
+						margin: 0 0 20px;
+						label {
+							display: inline;
+							em {
+								width: 100%;
+								height: auto;
+								margin-top: 10px;
+								display: inline-block;
+							}
+						}
+					}
+				}
+			}
+			.form-footer {
+				display: inline-block;
+				width: 100%;
+				margin: 35px  0px;
+				button {
+					float: left!important;
+					width: 250px;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+	#identity,#address {
+		.content {
+			.account-content {
+				width: 90%;
+			}
+			h2 {
+				font-size: 18px;
+			}
+			form {
+				.form-group {
+					&.newsletter {
+						.form-input {
+							margin: 0 0 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	#identity,#address {
+		#wrapper {
+			padding-top: 70px;
+		}
+		.my-account-content {
+			margin-bottom: 0;
+		}
+		.content {
+			.account-content {
+				padding: 5px;
+				width: 90%;
+				min-height: 920px
+			}
+			h2 {
+				font-size: 18px;
+				margin: 0;
+			}
+			h3 {
+				margin: 20px 0;
+				text-align: center;
+			}
+			form {
+				.form-group {
+					.form-label {
+						margin: 0;
+						font-size: 14px;
+					}
+					.form-input {
+						label {
+							font-size: 14px;
+						}
+						input {
+							font-size: 14px;
+						}
+					}
+					&.newsletter {
+						margin-top: 15px;
+						.form-input {
+							margin: 0;
+							label {
+								em {
+									display: inline;
+									font-size: 14px;
+								}
+							}
+						}
+					}
+					&.optin {
+						margin-top: 0;
+					}
+				}
+				.form-footer {
+					button {
+						top: 60px;
+						position: relative;
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 550px) and (max-width: 767px) {
+	#identity {
+		.content {
+			.account-content {
+				min-height: 870px!important;
+			}
+			form {
+				.form-group {
+					&.optin {
+						margin-top: 0;
+						margin-bottom: 0;
+					}
+				}
+				.form-footer {
+					button {
+						top: 35px!important;
+					}
+				}
+			}
+		}
+	}
+}

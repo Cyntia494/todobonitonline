@@ -1,0 +1,16 @@
+
+@media (min-width: 320px) and (max-width: 767px) {
+	#address {
+		.content {
+			form {
+				.form-footer {
+			    	margin: 15px 0!important;
+			    	button {
+	    	    		top: 15px!important;
+   						width: 235px!important;
+			    	}
+				}
+			}
+		}
+	}
+}

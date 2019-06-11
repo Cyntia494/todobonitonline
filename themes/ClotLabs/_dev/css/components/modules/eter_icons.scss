@@ -1,0 +1,88 @@
+#footericons {
+	display: inline-block;
+	width: 30%;
+	float: left;
+	.icons {
+		display: inline-block;
+		width: 100%;
+		max-width: 280px;
+		.icons-group {
+			display: flex;
+			justify-content: flex-start;
+			width: 100%;
+		}
+		.title,strong {
+			color: #230F39;	
+			font-family: "Nunito Sans";	
+			font-size: 14px;	
+			font-weight: 900;	
+			letter-spacing: 0.5px;	
+			line-height: 19px;
+			text-align: center;
+    	margin-bottom: 15px;
+		}
+		.icon {
+			display: inline-block;
+			margin-right: 15px;
+			img {
+				height: 36px;
+			}
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+	#footericons {
+		width: 100%!important;
+		text-align: center;
+		.icons {
+			background-color: red;
+			.title,strong {
+				color: #230F39;	
+				font-family: "Nunito Sans";	
+				font-size: 24px;	
+				font-weight: bold;	
+				line-height: 31px;	
+				text-align: center;
+			}
+		}
+		.icons {
+			.icons-group {
+				justify-content: center!important;
+			}
+			.title {
+				font-size: 20px;
+				text-transform: none;	
+			}
+		}
+	}
+
+	#footer {
+		.footer-after {
+			.icon-right-text > div {
+				border-left: 0px;
+			}
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	#footericons {
+		width: 100%!important;
+		text-align: center;
+		.icons {
+			.icon {
+				margin-right: 0px;
+				float: none!important;
+				img {
+					height: 40px;
+				}
+			}
+
+			.icons-group {
+				a {
+					width: 25%;
+					float: left;
+				}
+			}
+		}
+	}
+}

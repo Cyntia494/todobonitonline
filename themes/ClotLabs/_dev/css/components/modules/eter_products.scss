@@ -1,0 +1,33 @@
+.product-carousels {
+    margin-bottom: 15px;
+    .product-title {
+    	text-align: center;
+    	h3 {
+    		font-size: 25px;
+    	}
+    }
+    .products-container {
+    	margin-left: -5px;
+    	margin-right: -5px;
+    }
+	.products {
+		width: 100%;
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.product-carousels {
+	    .products-container {
+	    	margin-left: -2px;
+	    	margin-right: -2px;
+	    }
+	}	
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+	.product-carousels {
+		.product-title {
+			h3 {
+				font-size: 20px;
+			}
+		}
+	}
+}

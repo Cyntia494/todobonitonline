@@ -1,0 +1,51 @@
+.contact-rich {
+  color: $gray-dark;
+  margin-bottom: rem(32px);
+  word-wrap: break-word;
+  h4 {
+    text-transform: uppercase;
+    color: $gray-darker;
+    margin-bottom: rem(32px);
+  }
+  .block {
+    height: auto;
+    overflow: hidden;
+    .icon {
+      float: left;
+      width: rem(56px);
+      i {
+        font-size: rem(32px);
+      }
+    }
+    .data {
+      color: $gray-darker;
+      font-size: $font-size-sm;
+      width: auto;
+      overflow: hidden;
+      &.email{
+        padding-top: rem(6px);
+      }
+    }
+  }
+}
+.contact-form {
+  background: white;
+  padding: 0px;
+  color: $gray-dark;
+  width: 100%;
+  margin: 0 auto 20px;  
+  overflow: hidden;
+  h3 {
+    text-transform: uppercase;
+    color: $gray-darker;
+    border-bottom: 1px solid #dadada;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .contact-form {
+    max-width: 100%;
+  }
+}

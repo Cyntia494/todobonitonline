@@ -1,0 +1,83 @@
+#order-confirmation {
+	#wrapper {
+		background-color: #ffffff;
+		padding-top: 140px;
+		padding-bottom: 10px;
+	}
+	#content-hook_order_confirmation {
+		.card-title {
+			font-size: 18px;
+		}
+	}
+	#content-hook_payment_return {
+		p {
+			font-size: 16px;
+		}
+	}
+	#order-items {
+		display: inline-block;
+		float: left;
+		width: 70%;
+	}
+	#order-details {
+		width: 30%; 
+		display: inline-block;
+		float: left;
+	}
+	.page-content {
+		.card-title {
+			font-size: 18px;
+			font-weight: 700;
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	#order-confirmation {
+		#wrapper {
+		    background-color: #fff;
+		    padding-top: 75px;
+		    padding-bottom: 0px;
+		}
+		#content-hook_order_confirmation {
+			.card-title {
+				font-size: 16px;
+			}
+		}
+		#order-items {
+			width: 100%;
+			margin-bottom: 0;
+			border-bottom: 1px solid #f1f1f1;
+			padding-bottom: 25px;
+			td {
+				font-size: 14px;
+			}
+			.qty {
+				font-size: 14px;
+			}
+		}
+		#content-hook_payment_return {
+			p {
+				font-size: 14px;
+			}
+		}
+		#order-details {
+			width: 100%;
+			display: inline-block;
+			float: left;
+			margin-top: 30px;
+			padding-left: 20px;
+			h3 {
+				border-bottom: 0;
+			}
+		}
+		.page-content {
+			.card-title {
+				font-size: 16px;
+				font-weight: 700;
+			}
+		}
+		li {
+			font-size: 14px;
+		}
+	}
+}

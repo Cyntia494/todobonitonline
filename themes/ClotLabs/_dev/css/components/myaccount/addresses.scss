@@ -1,0 +1,241 @@
+#addresses {
+	#wrapper {
+		background-color: #f6f6f6;
+	}
+	.my-account-content {
+		.content {
+			h2 {
+				margin: -10px 0px 0;
+			}
+			.no-orders {
+				text-align: center;
+				margin-top: 30px;
+				.icon {
+					background-image: url(../img/notebook.png);
+					width: 100px;
+					height: 100px;
+					background-position: center;
+					text-align: center;
+					margin: auto;
+					background-size: cover;
+					color: #000;
+				}
+				p {
+					color: #230f39;
+					font-size: 16px;
+					line-height: 22px;
+					margin-top: 16px;
+				}
+			}
+			.address-list-item {
+				width: 33.33%;
+				float: left;
+				padding: 5px;
+				font-size: 16px;
+				.address-body {
+					min-height: 185px;
+				}
+				.address {
+					background-color: #ffffff;
+					width: 100%;
+					border: 1px solid #eaeaea;
+					h4 {
+						border-bottom: 1px solid #dadada;
+						padding: 10px;
+					}
+					address {
+						color: #4E4E4E;	
+						font-size: 16px;	
+						line-height: 18px;
+						margin-bottom: 5px;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						overflow: hidden;
+						min-height: 18px;
+						padding: 10px;
+					}
+					.address-footer {
+						display: inline-block;
+						width: 100%;
+						border-top: 1px solid #fff;
+						margin-bottom: -5px;
+						a {
+							display: inline-block;
+							width: 50%;
+							float: left;
+							line-height: 30px;
+							&[data-link-action="edit-address"] {
+								border-right: 1px solid #bcbcbc;
+							}
+							&[data-link-action="edit-address"]{
+								color: #FFFFFF;	
+								font-size: 16px;	
+								box-sizing: border-box;
+								text-align: center;
+								border-top: 1px solid #bcbcbc;
+								background-color: #07d97b;
+							}
+							&[data-link-action="delete-address"]{
+								color: #FFFFFF;	
+								font-size: 16px;	
+								box-sizing: border-box;
+								text-align: center;
+								border-top: 1px solid #bcbcbc;
+								background-color: #230f39;
+							}
+						}
+					}
+				}
+			}
+			a[data-link-action="add-address"]{
+				color: #4E4E4E;
+				padding-left: 5px;
+			}
+		}
+	}
+	#content {
+		.my-account-content {
+			.content-header {
+				height: 33px;
+				width: 100%;
+				border-bottom: 1px solid #f4f7f7;
+				h2 {
+					border: 0!important;
+				}
+				.title {
+					width: 50%;
+					float: left;
+					display: inline-block;
+				}
+				.new-address {
+					width: 50%;
+					display: inline-block;
+					float: left;
+					text-align: right;
+					span,i {
+						color: #4A90E2;
+						font-size: 18px;
+						font-weight: normal;
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 450px) {
+	.my-account-content {
+		.content {
+			.address-list-item {
+				width: 100%!important;
+			}
+			h2 {
+				text-align: center;
+			}
+			.account-content {
+				.address-form {
+					padding: 10px;
+					.js-address-form {
+						.form-fields {
+							.form-group {
+								.form-control-label {
+									width: 100%;
+									text-align: left;
+								}
+								.form-input {
+									width: 100%;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	#addresses {
+		#wrapper {
+			padding-top: 70px!important;
+		}
+		.my-account-content {
+			margin-bottom: 0;
+			.content {
+				h2 {
+					margin: 0;
+				}
+				.address-list-item {
+					width: 50%;
+					font-size: 14px;
+					h4 {
+						font-size: 16px;
+						padding: 5px;
+					}
+					address {
+						padding: 5px;
+					}
+				}
+				.no-orders {
+					.icon {
+						width: 75px;
+						height: 75px;
+					}
+				}
+				.new-address {
+					margin-bottom: 20px;
+					border: 0;
+					padding: 0;
+					a {
+						color: #4A90E2!important;	
+						font-size: 16px;	
+						line-height: 22px;
+					}
+				}
+			}
+		}
+		#content {
+			.my-account-content {
+				.content-header {
+					border-bottom: 0;
+					margin-top: 10px;
+					.title {
+						font-size: 16px;
+						width: 100%;
+						border-bottom: 1px solid #979797;
+						margin: -10px -10px 0px 0px;
+					}
+				}
+			}
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+	#addresses {
+		.my-account-content {
+			.content {
+				.address-list-item {
+					width: 50%;			
+				}
+				.no-orders {
+					.icon {
+						width: 75px;
+						height: 75px;
+					}
+				}
+			}
+		}
+		#content {
+			.my-account-content {
+				.content-header {
+					.title {
+						font-size: 18px;
+						width: 40%;
+					}
+					.new-address {
+						font-size: 18px;
+						width: 60%;
+					}
+				}
+			}
+		}
+	}
+}

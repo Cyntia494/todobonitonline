@@ -1,6 +1,0 @@
-.headertopcolor {
-	background-color: {$headertopcolor}!important
-}
-.footercolor {
-	background-color: {$footercolor}!important	
-}

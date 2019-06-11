@@ -1,0 +1,133 @@
+/* Estilos unicos para sección de mi cuenta*/
+#my-account {
+	#wrapper {
+		background-color: #F1F1F1; 
+	}
+	.my-account-content{
+		.content {
+			width: 100%;
+			padding: 10px 30px;
+			.menu {
+				display: none;
+			}
+			h3 {
+				color: #1F130E;	
+				font-family: "Open Sans";	
+				font-size: 25px;	
+				font-weight: bold;	
+				line-height: 34px;
+				width: 100%;
+				border: 0;
+				margin-top: 10px; 
+				padding-left: 8px;
+			}
+			.account-content {
+				h2 {
+					text-align: center;
+				}
+				.container-options-customer {
+					float: left;
+					padding: 5px;
+					width: 33.33%;
+					a {
+						color: #1F130E;
+						.option-section {
+							border: 1px solid #979797;
+							padding: 15px;
+							div {
+								overflow: hidden;
+								text-align: center;
+								text-overflow: ellipsis;
+								white-space: nowrap;
+								&:first-child {
+									background-position: center;
+									background-repeat: no-repeat;
+									height: 200px;
+								}
+							}
+							.identity-icon {
+								background-image: url(../img/info_icon.png);
+							}
+							.addresses-icon {
+								background-image: url(../img/mark_icon.png);
+							}
+							.history-icon {
+								background-image: url(../img/pedidos_icon.png);
+							}
+							.order_slip-icon {
+								background-image: url(../img/correo_icon.png);
+							}
+							.discount-icon {
+								background-image: url(../img/lista_icon.png);
+							}
+							.order_follow-icon {
+								background-image: url(../img/newsletter_icon.png);
+							}
+						}
+					}	
+				}
+			}
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+	#my-account {
+		.content {
+			h3 {
+				text-align: center;
+				width: 100%;
+			}
+			.account-content {
+				.container-options-customer {
+					width: 50%;	
+				}
+			}
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	#my-account {
+		.content {
+			padding: 0;
+			h3 {
+				text-align: center;
+				width: 100%;
+			}
+			.account-content {
+				.container-options-customer {
+					width: 100%!important;
+					a {
+						.option-section {
+							height: 200px;
+							display: flex;
+							align-items: center;
+							div {
+								&:first-child {
+									background-position:none;
+									height: 70px;
+									width: 100px;
+								}
+							}
+							.text {
+								white-space: normal;
+								padding: 10px;
+								text-align: left;
+							}
+						}
+					}	
+				}
+			}
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	#my-account {
+		.content {
+			.account-content {
+				.container-options-customer {
+					width: 50%;	
+				}
+			}
+		}
+	}
+}

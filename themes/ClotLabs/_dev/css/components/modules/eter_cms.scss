@@ -1,0 +1,225 @@
+#cms {
+	.page-cms-header {
+		display: none;
+	}
+	#content-wrapper {
+		margin-bottom: 50px;
+	}
+}
+.eterlabs-cms-content {
+	padding-top: 40px;
+	h1 {
+		padding-left: 0px;
+		font-size: 40px;	
+		font-weight: 100;	
+		letter-spacing: 3.31px;	
+		line-height: 63px;	
+		margin-bottom: 30px;
+	}
+	ul {
+		list-style: circle;
+	    padding-left: 30px;
+	}
+	h2 {
+		color: #2A2A2A;	
+		font-size: 20px;
+		padding: 0px;	
+		font-weight: bold;	
+		letter-spacing: 1.8px;	
+		margin-bottom: 10px;
+		margin-top: 30px;
+		line-height: 25px;	
+	}
+	strong {
+		line-height: 34px;
+	}
+	.paragraph,
+	p {
+		color: #4A4A4A;	
+		font-size: 18px;	
+		line-height: 34px;
+		text-align: left;
+		font-weight: 300;
+	}
+}
+.eterlabs-cms-content.aboutus {
+	.about-content {
+		display: inline-block;
+		margin-bottom: 40px;
+	}
+	.section-content {
+		color: #2A2A2A;	
+		text-align: center;
+		.full-img {
+			width: 100%;
+			img {
+				width: 100%;
+			}
+		}
+		
+	}
+	.content-focus {
+	    display: inline-flex;
+    	align-items: center;
+    	margin-bottom: 50px;
+    	.image {
+			position: relative;
+			height: 350px;
+			width: 50%;
+			img {
+				object-fit: cover;
+			    position: absolute;
+			    object-position: center;
+			    left: 0px;
+			    width: 100%;
+			    height: 100%;
+			}
+		}
+	    .focus1 {
+	    	display: inline-block;
+			float: left;
+			width: 50%;
+			text-align: right;
+			&.left {
+				text-align: left;
+				.text-focus-2 {
+					text-align: left;
+				}
+			}
+    		.text-focus {
+    			color: #2A2A2A;	
+				font-size: 20px;	
+				font-weight: bold;	
+				line-height: 25px;	
+				width: 60%;
+				margin: auto;
+    		}
+    		.text-focus-2 {
+    			color: #4A4A4A;	
+				font-size: 18px;	
+				line-height: 34px;
+				width: 60%;
+				margin: auto;
+				text-align: right;
+    		}
+    	}
+    }
+}
+.eterlabs-cms-content.secure {
+	h2 {
+		margin-top: 0px;
+	}
+	.section-content {
+		color: #2A2A2A;	
+		text-align: left;
+		.full-img {
+			width: 100%;
+			img {
+				width: 100%;
+			}
+		}
+		
+	}
+}
+@media (min-width: 768px) and (max-width: 1100px) { 
+	.eterlabs-cms-content.aboutus {
+		.content-focus {
+			.focus1 {
+				.text-focus-2 {
+					font-size: 14px;
+					line-height: 27px;
+					text-align: center;
+				}
+				.text-focus {
+					font-size: 16px;
+					line-height: 20px;
+					text-align: center;
+				}
+			}
+		}
+	}
+	.eterlabs-cms-content {
+		h1 {
+			font-size: 30px;	
+			letter-spacing: 2.31px;	
+			line-height: 43px;	
+			margin-bottom: 30px;
+		}
+		h2 {
+			font-size: 16px;
+			letter-spacing: 1.4px;	
+			line-height: 20px;	
+		}
+		strong {
+			line-height: 27px;
+		}
+		.paragraph,
+		p {
+			color: #4A4A4A;	
+			font-size: 16px;	
+			line-height: 27px;
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) { 
+	.eterlabs-cms-content.aboutus {
+		.content-focus {
+			display: inline-block;
+			&:nth-child(1) {
+				display: none;
+			}
+			.image {
+				height: auto;
+				img {
+					position: relative;
+				}
+			}
+			.focus1 {
+				.text-focus,
+				.text-focus-2 {
+					width: 100%;
+					text-align: center;
+				}
+				.text-focus {
+					font-size: 16px;
+					line-height: 20px;
+					text-align: center;
+				}
+				.text-focus-2 {
+					font-size: 14px;
+					line-height: 24px;	
+					text-align: center;
+				}
+			}
+			.image,
+			.focus1 {
+				width: 100%;
+			}
+		}
+	}
+	.eterlabs-cms-content {
+		h1 {
+			font-size: 20px;	
+			letter-spacing: 1.31px;	
+			line-height: 30px;	
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		h2 {
+			font-size: 16px;
+			letter-spacing: 1.4px;	
+			line-height: 20px;	
+			text-align: center;
+		}
+		strong {
+			line-height: 24px;
+		}
+		.paragraph,
+		p {
+			color: #4A4A4A;	
+			font-size: 14px;	
+			line-height: 24px;
+			text-align: center;
+		}
+	}
+}

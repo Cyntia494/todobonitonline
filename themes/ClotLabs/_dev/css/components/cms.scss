@@ -1,0 +1,75 @@
+.cms-customs {
+	display: inline-block;
+	width: 100%;
+	.cms-section {
+		display: inline-block;
+		width: 100%;
+		.section-content {
+			font-size: 16px;
+			text-align: justify;
+			line-height: 24px;
+		}
+	}
+	&.cms1 {
+		.cms-section {
+			margin-bottom: 20px;
+		}
+	}
+	&.cms2 {
+		.column {
+			width: 50%;
+			float: left;
+			.cms-section {
+				margin-bottom: 10px;
+				.section-content {
+					text-align: justify;	
+				}
+			}
+			&:nth-child(odd) {
+				padding-right: 20px;
+			}
+			&:nth-child(even) {
+				padding-left: 20px;
+			}
+		}
+	}
+	&.cms3 {
+		.cms-section {
+			margin-bottom: 20px;
+			.section-img {
+				width: 35%;
+				float: left;
+				padding-right: 20px;
+			}
+			.section-content {
+				width: 65%;
+				float: left;	
+				padding-left: 20px;
+			}
+			&.right {
+				.section-content {
+					float: right;
+					padding-left: 0px;
+					padding-right: 20px;
+				}
+				.section-img {
+					float: right;
+					padding-right: 0px;
+					padding-left: 0px;
+				}
+			}
+		} 
+	}
+	&.cms4 {
+		.cms-section { 
+			width: 33.33%;
+			float: left;
+			padding: 20px;
+			box-sizing: border-box;
+			min-height: 350px;
+			img {
+				width: 100%;
+			}
+		}
+	}
+}

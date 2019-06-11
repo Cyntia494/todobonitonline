@@ -1,0 +1,125 @@
+.specials {
+	margin-top: 0px!important;
+	margin-bottom: 30px;
+	.specials-container {
+		background-color: #fff;
+		width: 100%;
+		display: flex;
+		.big-title {
+			width: 300px;
+		    float: left;
+		    padding: 40px;
+		    padding-left: 30px;
+		    flex-direction: column;
+		    justify-content: flex-start;
+		    align-items: stretch;
+		    align-content: stretch;
+		    align-self: center;
+			.icon {
+				display: inline-block;
+			    color: #ff9e11;
+			    font-size: 50px;
+			    float: left;
+			}
+			.text {
+				font-size: 30px;
+				.offer {
+					font-weight: bold;
+					font-family: Georgia;	
+					font-size: 35px;	
+					font-style: italic;	
+					font-weight: bold;	
+					line-height: 40px;	
+					text-align: center;
+				}
+				.of-day {
+					font-family: "Open Sans";	
+					font-size: 30px;	
+					font-weight: 300;	
+					line-height: 41px;	
+					text-align: center;
+				}
+			}
+			.show-product-link {	
+				height: 40px;	
+				display: inline-block;
+				width: 100%;	
+				background-color: #1F130E;
+				color: #FFFFFF;	
+				font-family: "Open Sans";	
+				font-size: 18px;	
+				font-weight: 600;	
+				line-height: 40px;
+				margin-top: 20px;
+			    text-align: center;
+			}
+		}
+		.products-list {
+			width: calc(100% - 300px);
+			display: inline-block;
+			position: relative;
+			.listing-add-tocart {
+				display: none;
+			}
+			&:before {
+				content: "";
+				display: block;
+				position: absolute;
+				width: 1px;
+				height: calc(100% - 40px);
+				top: 20px;
+				left: -10px;
+				z-index: 22;
+				background-color: #9A9A9A;
+
+			}
+		}
+	}
+}
+/*MOBILE*/
+@media (min-width: 320px) and (max-width: 960px) {
+  	.specials {
+  		.specials-container {
+  			display: inline-block;
+  			width: 100%;
+  			.products-list {
+  				width: 100%;
+  			}
+  			.big-title {
+  				width: 100%;
+  				float: left;
+  				padding: 5px;
+  				.vertical-texts {
+  					line-height: 40px;
+  				}
+  				.icon {
+  					font-size: 19px;
+  					margin-right: 10px;
+  					line-height: 38px;
+  				}
+  				.text {
+  					display: inline-block;
+  					.offer,
+  					.of-day {
+  						display: inline-block;
+  						font-size: 19px;
+  						line-height: 19px;
+    					margin-bottom: 0px;
+  						float: left;
+  					}
+  				}
+  				.show-product-link {
+				    float: right;
+				    font-size: 14px;
+				    height: 30px;
+				    font-weight: 400;
+				    line-height: 30px;
+				    margin-top: 0;
+				    padding: 0 10px;
+				    margin-top: 0px;
+  					width: auto;
+  				}
+  			}
+  		}
+  	}
+}

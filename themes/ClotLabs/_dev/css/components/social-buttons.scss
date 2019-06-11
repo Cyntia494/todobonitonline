@@ -1,0 +1,32 @@
+.socialsharing {
+		float: left;
+    width: 100%;
+    span {
+    	width: auto;
+    	float: left;
+    	display: inline-block;
+    	margin-right: 10px;
+    	height: 36px;
+    	line-height: 36px;
+    }
+    li {
+    	float: left;
+    	display: flex;
+    	width: 10%;
+    	height: 36px;
+    	width: 36px;
+    	justify-content: center;
+    	align-items: center;
+    	margin-right: 10px;
+    	border-radius: 50%;
+	    border: 2px solid #230f39;
+    	i {
+    		height: 36px;
+    		width: 36px;
+    		display: inline-flex;
+    		justify-content: center;
+    		align-items: center;
+    		color: #230f39;
+    	}
+    }
+}

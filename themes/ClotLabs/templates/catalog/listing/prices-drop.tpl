@@ -9,8 +9,8 @@
 	       	<div class="description">
 				<div class="top-p-title">
 					<div class="container description-wrapper">
-						<h1 class="strong">{l s="Prices Drop" d='Shop.Theme.Catalog'}</h1>
-						<div class="category-description">{l s="Prices Drop" d='Shop.Theme.Catalog'}</div>
+						<h1 class="strong">{l s="Prices Drop" d='ShopThemeCatalog'}</h1>
+						<div class="category-description">{l s="the best promotions for you" d='ShopThemeCatalog'}</div>
 					</div>
 				</div>
 	       </div>
